@@ -1,0 +1,10 @@
+.git
+.gitignore
+.dockerignore
+.vscode
+.idea
+*.bak
+*.bak2
+*.bak3
+*.bak4
+compteur.txt

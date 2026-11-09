@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devenir Sponsor — FIC 2026</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .sponsor-form { max-width: 800px; margin: 0 auto; background: var(--white); padding: 48px; border: 1px solid var(--gray-200); border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+    .sponsor-form h2 { text-align: center; margin-bottom: 32px; color: var(--green); font-weight: 300; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+    .sponsor-form .field { margin-bottom: 24px; }
+    .sponsor-form .field label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; }
+    .sponsor-form .field input, .sponsor-form .field select, .sponsor-form .field textarea { width: 100%; padding: 14px; border: 1px solid var(--gray-300); border-radius: 4px; font-family: var(--font); font-size: 1rem; }
+    .sponsor-form .field textarea { min-height: 150px; resize: vertical; }
+    .sponsor-form .btn { width: 100%; justify-content: center; font-size: 0.9rem; padding: 18px; }
+    .alert-success { background: #d4edda; color: #155724; padding: 15px; border-radius: 4px; margin-bottom: 20px; text-align: center; font-weight: bold; border: 1px solid #c3e6cb; }
+    @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } .sponsor-form { padding: 24px; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.PNG" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img src="assets/logo.PNG" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">Édition</span><p>20 décembre 2026 —<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-Zoumè, Bénin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Partenariat</span>
+    <h1>Devenir Sponsor de la FIC.</h1>
+    <p>Associez votre entreprise à un événement majeur et soutenez le développement du territoire des Collines.</p>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    
+    <div id="success-message" class="alert-success" style="display:none;">
+      Votre demande a bien été enregistrée. L'équipe FIC vous contactera très prochainement.
+    </div>
+
+    <form class="sponsor-form" action="traitement-sponsor.php" method="POST">
+      <h2>Formulaire de demande de sponsoring</h2>
+      
+      <div class="form-row">
+        <div class="field">
+          <label for="entreprise">Nom de l'entreprise / Organisation *</label>
+          <input type="text" id="entreprise" name="entreprise" required placeholder="Ex: Entreprise ABC">
+        </div>
+        <div class="field">
+          <label for="contact">Nom du responsable *</label>
+          <input type="text" id="contact" name="contact" required placeholder="Ex: Jean Dupont">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="email">Email professionnel *</label>
+          <input type="email" id="email" name="email" required placeholder="contact@entreprise.com">
+        </div>
+        <div class="field">
+          <label for="telephone">Téléphone *</label>
+          <input type="tel" id="telephone" name="telephone" required placeholder="+229 XX XX XX XX">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="type">Type de sponsoring souhaité *</label>
+        <select id="type" name="type" required>
+          <option value="">Sélectionnez une option</option>
+          <option value="Financier">Financier</option>
+          <option value="Matériel / Logistique">Matériel / Logistique</option>
+          <option value="Média / Communication">Média / Communication</option>
+          <option value="Autre">Autre</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Détails de votre proposition / Message *</label>
+        <textarea id="message" name="message" required placeholder="Décrivez votre offre de sponsoring..."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/logo.PNG" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dédiée à la valorisation des richesses des Collines.</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 FIC. Tous droits réservés.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+<script>
+  if (window.location.search.includes('success=1')) {
+    document.getElementById('success-message').style.display = 'block';
+    window.scrollTo(0, document.querySelector('.page-hero').offsetHeight);
+  }
+</script>
+</body>
+</html>

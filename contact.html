@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — FIC 2026</title>
+  <meta name="description" content="Contactez l’équipe de la Foire Internationale des Collines.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.PNG" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img src="assets/logo.PNG" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">Édition</span><p>20 décembre 2026 —<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-Zoumè, Bénin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Contact</span>
+    <h1>Prenons contact.</h1>
+    <p>Une question, une candidature, un partenariat ? L’équipe FIC vous répond.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-block">
+          <span class="info-label">Lieu</span>
+          <div class="info-value">Place Egbakokou<small>Dassa-Zoumè, Département des Collines — Bénin</small></div>
+        </div>
+        <div class="info-block">
+          <span class="info-label">Édition</span>
+          <div class="info-value">20 déc. 2026 — 2 janv. 2027<small>Quatorze jours de foire</small></div>
+        </div>
+        <div class="info-block">
+          <span class="info-label">Email</span>
+          <div class="info-value"><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></div>
+        </div>
+        <div class="info-block">
+          <span class="info-label">Téléphone</span>
+          <div class="info-value"><a href="tel:+2290156282878">+229 01 56 28 28 78</a></div>
+        </div>
+        <div class="social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="WhatsApp">WA</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+      </div>
+      <form onsubmit="handleSubmit(event)">
+        <div class="field">
+          <label for="nom">Nom complet / Organisation</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="field">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="tel">Téléphone / WhatsApp</label>
+          <input type="tel" id="tel" name="tel">
+        </div>
+        <div class="field">
+          <label for="profil">Je suis…</label>
+          <select id="profil" name="profil" required>
+            <option value="">Sélectionner</option>
+            <option>Exposant / Producteur</option>
+            <option>Artisan</option>
+            <option>Entrepreneur</option>
+            <option>Partenaire institutionnel</option>
+            <option>Visiteur</option>
+            <option>Presse / Média</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+      </form>
+    </div>
+    <div class="map-box">Carte interactive — Place Egbakokou, Dassa-Zoumè</div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Mentions légales</span>
+      <h2>Informations légales.</h2>
+    </div>
+    <div class="grid-2 reveal">
+      <div class="card"><h3>Éditeur du site</h3><p>Foire Internationale des Collines (FIC). Siège : Dassa-Zoumè, Département des Collines, Bénin. Contact : fic.collines@gmail.com</p></div>
+      <div class="card"><h3>Hébergement</h3><p>Site hébergé par LWS (Ligne Web Services), France.</p></div>
+      <div class="card"><h3>Propriété intellectuelle</h3><p>L’ensemble des contenus (textes, images, logos) est la propriété de la FIC ou de ses partenaires. Toute reproduction sans autorisation est interdite.</p></div>
+      <div class="card"><h3>Données personnelles</h3><p>Les informations transmises via le formulaire sont utilisées uniquement pour répondre à votre demande. Vous pouvez demander leur suppression à fic.collines@gmail.com.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/logo.PNG" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dédiée à la valorisation des richesses, savoir-faire et opportunités du département des Collines. Première édition du 20 décembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-Zoumè, Bénin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Foire Internationale des Collines. Tous droits réservés.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">—</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>

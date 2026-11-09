@@ -1,0 +1,15 @@
+*.bak
+*.bak2
+*.bak3
+*.bak4
+*~
+*.tmp
+*.log
+.env
+.env.local
+Thumbs.db
+.DS_Store
+desktop.ini
+.vscode/
+.idea/
+*.swp
