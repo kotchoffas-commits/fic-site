@@ -19,3 +19,9 @@ ETAT_DES_LIEUX.txt
 
 # Visitor counter runtime data
 next/data/compteur.json
+
+# Temp scripts
+migrate.ps1
+links.ps1
+fix.ps1
+
