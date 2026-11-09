@@ -1662,81 +1662,88 @@ textarea.form-control {
 }
 
 .partner-box {
-  background: var(--cream);
+  background: var(--white);
   border: 1px solid var(--gray-200);
   border-radius: 12px;
-  padding: 32px 16px;
+  padding: 32px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; /* Aligne le texte en bas */
+  justify-content: center;
   text-decoration: none;
   transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-  height: 100%; /* Force tous les blocs à avoir la même hauteur */
+  height: 100%; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
 }
 
 .partner-box:hover {
-  background: var(--white);
   border-color: var(--gold);
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(196, 154, 58, 0.15);
 }
 
+/* On enlève le filtre noir et blanc pour que les logos gardent leurs couleurs */
 .partner-box img {
-  max-height: 60px;
+  max-height: 70px;
   max-width: 90%;
   object-fit: contain;
   margin-bottom: 20px;
   transition: transform 0.4s ease;
+  filter: none !important; 
+  opacity: 1 !important;
 }
 
 .partner-box:hover img {
   transform: scale(1.05);
 }
 
+/* LE CORRECTIF EST ICI : On force la couleur du texte */
 .partner-box span {
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--green-dark);
+  color: var(--green-dark) !important; /* Force le vert forêt */
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   transition: color 0.3s ease;
-  line-height: 1.2;
+  line-height: 1.3;
+  display: block;
+  width: 100%;
 }
 
 .partner-box:hover span {
-  color: var(--gold);
+  color: var(--gold) !important; /* Force le doré au survol */
 }
 
 /* --- RESPONSIVE : TABLETTES --- */
 @media (max-width: 1024px) {
   .partners-row {
-    grid-template-columns: repeat(3, 1fr); /* 3 colonnes sur tablette */
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 }
 
-/* --- RESPONSIVE : MOBILES --- */
+/* --- RESPONSIVE : MOBILES (2 par 2) --- */
 @media (max-width: 768px) {
   .partners-row {
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur mobile */
-    gap: 12px;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px; 
     margin-bottom: 32px;
   }
   
   .partner-box {
-    padding: 20px 10px; /* Réduction de l'espace interne */
-    border-radius: 8px;
+    padding: 24px 12px;
+    border-radius: 10px;
   }
   
   .partner-box img {
-    max-height: 45px; /* Logos plus petits pour mobiles */
-    margin-bottom: 12px;
+    max-height: 55px;
+    margin-bottom: 16px;
   }
   
   .partner-box span {
-    font-size: 0.7rem; /* Texte un peu plus petit */
+    font-size: 0.75rem;
+    color: var(--green-dark) !important; /* Maintient la couleur sur mobile */
   }
 }
 /* ============================================================
