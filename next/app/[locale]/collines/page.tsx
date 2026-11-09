@@ -1,5 +1,5 @@
-﻿import PageHero from "@/components/sections/PageHero";
-import Link from "next/link";
+import PageHero from "@/components/sections/PageHero";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { MapPin, Store, Crown, Wheat, Droplets, Mountain, Shirt, Hammer, UtensilsCrossed, ShoppingBag } from "lucide-react";
 

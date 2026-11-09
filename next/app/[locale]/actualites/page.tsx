@@ -1,6 +1,6 @@
 import PageHero from "@/components/sections/PageHero";
 import NewsCard from "@/components/sections/NewsCard";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { ACTUALITES } from "@/lib/actualites-data";
 
 export const metadata = {

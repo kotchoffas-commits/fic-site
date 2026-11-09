@@ -3,7 +3,7 @@ import MissionSection from "@/components/sections/MissionSection";
 import ValeursSection from "@/components/sections/ValeursSection";
 import ObjectifsSection from "@/components/sections/ObjectifsSection";
 import MapSection from "@/components/sections/MapSection";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 export const metadata = {
   title: "La FIC — Foire Internationale des Collines",

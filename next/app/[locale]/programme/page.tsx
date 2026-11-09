@@ -1,6 +1,6 @@
-﻿import PageHero from "@/components/sections/PageHero";
+import PageHero from "@/components/sections/PageHero";
 import ProgrammeList from "@/components/sections/ProgrammeList";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Briefcase, Wheat, Mountain, Palette, Hammer, Handshake, Music, UtensilsCrossed, Shirt } from "lucide-react";
 
 const CONFERENCES = [

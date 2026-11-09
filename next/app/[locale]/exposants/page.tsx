@@ -1,5 +1,5 @@
-﻿import PageHero from "@/components/sections/PageHero";
-import Link from "next/link";
+import PageHero from "@/components/sections/PageHero";
+import { Link } from "@/i18n/navigation";
 import { Wheat, Shirt, Hammer, Droplets, Palette, UtensilsCrossed } from "lucide-react";
 
 const EXPO = [
