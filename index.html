@@ -13,10 +13,18 @@
   <div class="header-inner">
     <a href="index.html" class="logo">
       <img src="assets/logo.png" alt="Logo FIC" class="logo-img" loading="lazy" decoding="async">
-      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+      <span class="logo-text" data-i18n="logo">Foire<br>Internationale<br>des Collines</span>
     </a>
     <div class="header-actions">
-      <a href="contact.html" class="header-cta">Contact</a>
+      
+      <!-- BOUTON DE LANGUE -->
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="fr" onclick="setLanguage('fr')">FR</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+      </div>
+      
+      <a href="contact.html" class="header-cta" data-i18n="nav_contact">Contact</a>
       <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">
         <span></span><span></span><span></span>
       </button>
@@ -29,20 +37,20 @@
     <div class="menu-top">
       <a href="index.html" class="menu-brand">
         <img src="assets/logo.png" alt="Logo FIC" class="logo-img" loading="lazy" decoding="async">
-        <span>Foire<br>Internationale<br>des Collines</span>
+        <span data-i18n="logo">Foire<br>Internationale<br>des Collines</span>
       </a>
       <button class="menu-close" id="menuClose">Fermer</button>
     </div>
     <nav class="menu-nav">
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="la-fic.html">La FIC</a></li>
-        <li><a href="programme.html">Programme</a></li>
-        <li><a href="exposants.html">Exposants</a></li>
-        <li><a href="collines.html">Les Collines</a></li>
-        <li><a href="actualites.html">Actualités</a></li>
-        <li><a href="partenaires.html">Partenaires</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+        <li><a href="la-fic.html" data-i18n="nav_fic">La FIC</a></li>
+        <li><a href="programme.html" data-i18n="nav_prog">Programme</a></li>
+        <li><a href="exposants.html" data-i18n="nav_expo">Exposants</a></li>
+        <li><a href="collines.html" data-i18n="nav_collines">Les Collines</a></li>
+        <li><a href="actualites.html" data-i18n="nav_actu">Actualités</a></li>
+        <li><a href="partenaires.html" data-i18n="nav_part">Partenaires</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
       </ul>
     </nav>
     <div class="menu-foot">
@@ -60,8 +68,8 @@
   <div class="hero-inner">
     <div>
       <div class="hero-kicker">Édition 2026</div>
-      <h1 class="hero-title">La richesse des Collines,<em>à portée de main.</em></h1>
-      <p class="hero-lead">La FIC est un espace de valorisation, de connexion et de projection pour le département des Collines. Exposer, découvrir, échanger et entreprendre.</p>
+      <h1 class="hero-title" data-i18n="hero_title">La richesse des Collines,<em>à portée de main.</em></h1>
+      <p class="hero-lead" data-i18n="hero_lead">La FIC est un espace de valorisation, de connexion et de projection pour le département des Collines. Exposer, découvrir, échanger et entreprendre.</p>
     </div>
     
     <div class="hero-bottom">
@@ -76,7 +84,7 @@
         </div>
       </div>
       <div class="hero-cta">
-        <a href="programme.html" class="btn btn-primary">Découvrir le programme</a>
+        <a href="programme.html" class="btn btn-primary" data-i18n="btn_prog">Découvrir le programme</a>
       </div>
     </div>
   </div>
@@ -102,6 +110,7 @@
   </div>
 </section>
 
+<!-- SECTION COMMUNIQUÉ OFFICIEL -->
 <section class="communique-section">
   <div class="container">
     <div class="communique-box reveal">
@@ -144,8 +153,8 @@
   <div class="container">
     <div class="section-head">
       <span class="kicker">La FIC</span>
-      <h2>Bien plus qu'une foire.</h2>
-      <p>Un espace de valorisation, de connexion et de projection pour le département des Collines. Découvrez notre mission et nos objectifs.</p>
+      <h2 data-i18n="section_fic_title">Bien plus qu'une foire.</h2>
+      <p data-i18n="section_fic_text">Un espace de valorisation, de connexion et de projection pour le département des Collines. Découvrez notre mission et nos objectifs.</p>
     </div>
     <div class="grid-3 reveal">
       <div class="card">
@@ -174,7 +183,7 @@
   <div class="container">
     <div class="section-head center">
       <span class="kicker">Actualités</span>
-      <h2>La vie de la FIC.</h2>
+      <h2 data-i18n="section_actu_title">La vie de la FIC.</h2>
       <p>Suivez les préparatifs et les temps forts de la première édition.</p>
     </div>
     <div class="grid-2 reveal">
@@ -202,7 +211,7 @@
       </article>
     </div>
     <div class="actions mt-8" style="justify-content: center;">
-      <a href="actualites.html" class="btn btn-primary">Toutes les actualités</a>
+      <a href="actualites.html" class="btn btn-primary" data-i18n="btn_actu">Toutes les actualités</a>
     </div>
   </div>
 </section>
@@ -214,7 +223,7 @@
   <div class="container">
     <div class="section-head center">
       <span class="kicker">Nos Partenaires</span>
-      <h2>Ils rendent la FIC possible.</h2>
+      <h2 data-i18n="section_part_title">Ils rendent la FIC possible.</h2>
       <p>La Foire Internationale des Collines est fière de s'entourer d'acteurs engagés pour valoriser le territoire.</p>
     </div>
     
@@ -223,7 +232,6 @@
         <img src="assets/partenaires/mairie-dassa.jpeg" alt="Mairie de Dassa">
         <span>Mairie de Dassa</span>
       </a>
-      <!-- CORRECTION ICI : Jeco Hôtel -->
       <a href="partenaires.html" class="partner-box">
         <img src="assets/partenaires/jeco-hote.jpeg" alt="Jeco Hôtel">
         <span>Jeco Hôtel</span>
@@ -350,17 +358,17 @@
       <div class="foot-brand">
         <img src="assets/logo.png" alt="Logo FIC" class="logo-img" loading="lazy" decoding="async">
         <h4>Foire Internationale des Collines</h4>
-        <p>Une initiative dédiée à la valorisation des richesses, savoir-faire et opportunités du département des Collines. Première édition du 20 décembre 2026 au 2 janvier 2027.</p>
+        <p data-i18n="footer_desc">Une initiative dédiée à la valorisation des richesses, savoir-faire et opportunités du département des Collines. Première édition du 20 décembre 2026 au 2 janvier 2027.</p>
       </div>
       <div class="foot-col">
         <h5>Navigation</h5>
         <ul>
-          <li><a href="la-fic.html">La FIC</a></li>
-          <li><a href="programme.html">Programme</a></li>
-          <li><a href="exposants.html">Exposants</a></li>
-          <li><a href="collines.html">Les Collines</a></li>
-          <li><a href="actualites.html">Actualités</a></li>
-          <li><a href="partenaires.html">Partenaires</a></li>
+          <li><a href="la-fic.html" data-i18n="nav_fic">La FIC</a></li>
+          <li><a href="programme.html" data-i18n="nav_prog">Programme</a></li>
+          <li><a href="exposants.html" data-i18n="nav_expo">Exposants</a></li>
+          <li><a href="collines.html" data-i18n="nav_collines">Les Collines</a></li>
+          <li><a href="actualites.html" data-i18n="nav_actu">Actualités</a></li>
+          <li><a href="partenaires.html" data-i18n="nav_part">Partenaires</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -375,8 +383,8 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Foire Internationale des Collines. Tous droits réservés.</span>
-      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">-</strong></span>
+      <span data-i18n="footer_rights">© 2026 Foire Internationale des Collines. Tous droits réservés.</span>
+      <span class="foot-visiteurs"><span data-i18n="footer_visitors">Visiteurs :</span> <strong id="compteur-visiteurs">-</strong></span>
       <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
     </div>
   </div>
@@ -385,7 +393,7 @@
 <script src="assets/icons.js"></script>
 <script src="assets/script.js"></script>
 
-<!-- Script pour le bouton Voir Plus de la formation -->
+<!-- SCRIPT POUR LE BOUTON "LIRE LA SUITE" -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const btn = document.getElementById('btn-voir-plus-formation');
