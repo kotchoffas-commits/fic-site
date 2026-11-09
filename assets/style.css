@@ -950,6 +950,114 @@ h1, h2, h3, h4, p, a, span {
 .bg-green .news-card .news-card-title {
   color: var(--ink) !important;
 }
+/* ============================================================
+   TIMELINE PREMIUM POUR LE PROGRAMME
+   ============================================================ */
+.timeline {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Ligne verticale */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 24px;
+  width: 2px;
+  background: var(--gray-200);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 64px;
+  margin-bottom: 48px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Point sur la ligne */
+.timeline-dot {
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 4px solid var(--cream);
+  box-shadow: 0 0 0 4px var(--gray-100);
+  z-index: 2;
+}
+
+/* Date */
+.timeline-date {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Badge de catégorie */
+.timeline-badge {
+  display: inline-block;
+  background: rgba(var(--green-rgb), 0.1);
+  color: var(--green);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Contenu de la carte */
+.timeline-content {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+
+.timeline-content:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(var(--black-rgb), .06);
+  border-color: var(--gray-300);
+}
+
+.timeline-content h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.15rem;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.timeline-content p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .timeline::before { left: 16px; }
+  .timeline-item { padding-left: 44px; margin-bottom: 32px; }
+  .timeline-dot { left: 7px; width: 18px; height: 18px; }
+  .timeline-content { padding: 20px; }
+  .timeline-date { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
 .bg-green .news-card p,
 .bg-green .news-card .news-card-text {
   color: var(--gray-700) !important;
