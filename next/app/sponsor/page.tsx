@@ -1,19 +1,24 @@
 ﻿import PageHero from "@/components/sections/PageHero";
+import SponsorForm from "@/components/forms/SponsorForm";
 
 export const metadata = {
-  title: "Sponsor — FIC 2026",
-  description: "Devenir partenaire de la FIC 2026",
+  title: "Devenir Sponsor — FIC 2026",
+  description: "Associez votre entreprise à la FIC 2026 et soutenez le développement du territoire des Collines.",
 };
 
 export default function Page() {
   return (
     <>
-      <PageHero title="Sponsor" subtitle="Devenir partenaire de la FIC 2026" breadcrumb="Sponsor" />
-      <section className="py-16 md:py-24 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <p className="text-gray-500 text-lg">
-            Contenu en cours de migration. Cette page sera complétée à l'étape suivante.
-          </p>
+      <PageHero
+        kicker="Partenariat"
+        title="Devenir Sponsor de la FIC."
+        subtitle="Associez votre entreprise à un événement majeur et soutenez le développement du territoire des Collines."
+        breadcrumb="Sponsor"
+      />
+
+      <section className="py-16 md:py-24 bg-cream">
+        <div className="max-w-[1200px] mx-auto px-6">
+          <SponsorForm />
         </div>
       </section>
     </>
