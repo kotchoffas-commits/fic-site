@@ -1,8 +1,8 @@
 /* ============================================================
-   FIC 2026 â€” Interactions
+   FIC 2026 — Interactions
    ============================================================ */
 
-// -------- MENU PLEIN Ã‰CRAN --------
+// -------- MENU PLEIN ÉCRAN --------
 const body = document.body;
 const menuBtn = document.getElementById('menuBtn');
 const menuClose = document.getElementById('menuClose');
@@ -37,7 +37,7 @@ if (header) {
   onScroll();
 }
 
-// -------- RÃ‰VÃ‰LATION AU SCROLL --------
+// -------- RÉVÉLATION AU SCROLL --------
 const reveals = document.querySelectorAll('.reveal');
 if (reveals.length && 'IntersectionObserver' in window) {
   const io = new IntersectionObserver((entries) => {
@@ -90,7 +90,8 @@ if (compteurEl) {
       compteurEl.textContent = Number(data.visiteurs).toLocaleString('fr-FR');
     })
     .catch(() => {
-      compteurEl.textContent = 'â€”';
+      // Le fameux tiret qui s'affichait mal est corrigé ici
+      compteurEl.textContent = '-';
     });
 }
 
@@ -194,11 +195,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// -------- FORMULAIRE (dÃ©mo) --------
+// -------- FORMULAIRE (démo) --------
 function handleSubmit(e) {
   e.preventDefault();
   const form = e.target;
   const nom = form.nom?.value || '';
-  alert(`Merci ${nom}.\n\nVotre message a bien Ã©tÃ© enregistrÃ©.\nL'Ã©quipe FIC vous recontactera rapidement.`);
+  alert(`Merci ${nom}.\n\nVotre message a bien été enregistré.\nL'équipe FIC vous recontactera rapidement.`);
   form.reset();
 }
