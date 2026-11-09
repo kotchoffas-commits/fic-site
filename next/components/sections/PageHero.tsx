@@ -1,10 +1,12 @@
 ﻿import Link from "next/link";
 
 export default function PageHero({
+  kicker,
   title,
   subtitle,
   breadcrumb,
 }: {
+  kicker?: string;
   title: string;
   subtitle?: string;
   breadcrumb?: string;
@@ -21,6 +23,11 @@ export default function PageHero({
             </>
           )}
         </nav>
+        {kicker && (
+          <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">
+            {kicker}
+          </span>
+        )}
         <h1 className="font-serif text-4xl md:text-6xl font-bold mb-4 animate-fade-in-up">
           {title}
         </h1>
