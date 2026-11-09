@@ -3,19 +3,28 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-
-export type NewsItem =
-  | { type: "single"; img: string; date: string; cat: string; title: string; text: string; link: string }
-  | { type: "album"; album: string[]; date: string; cat: string; title: string; text: string; link: string };
+import type { NewsItem } from "@/lib/actualites-data";
 
 export default function NewsCard({ item }: { item: NewsItem }) {
   const [modal, setModal] = useState<number | null>(null);
-  const images = item.type === "single" ? [item.img] : item.album;
+
+  const images =
+    item.type === "single" ? [item.img] :
+    item.type === "album" ? item.album :
+    [];
 
   return (
     <>
       <article className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-gray-100">
-        {item.type === "single" ? (
+
+        {item.type === "video" ? (
+          <div className="relative h-72 overflow-hidden bg-black">
+            <video controls preload="metadata" className="w-full h-full object-cover">
+              <source src={item.video} type="video/mp4" />
+              Votre navigateur ne supporte pas la vidéo.
+            </video>
+          </div>
+        ) : item.type === "single" ? (
           <div className="relative h-72 overflow-hidden cursor-pointer" onClick={() => setModal(0)}>
             <Image
               src={item.img}
@@ -27,10 +36,10 @@ export default function NewsCard({ item }: { item: NewsItem }) {
           </div>
         ) : (
           <div
-            className={`grid ${item.album.length === 6 ? "grid-cols-3" : "grid-cols-2"} h-72 overflow-hidden cursor-pointer`}
+            className={`grid ${item.album.length >= 6 ? "grid-cols-3" : "grid-cols-2"} h-72 overflow-hidden cursor-pointer`}
             onClick={() => setModal(0)}
           >
-            {item.album.map((src, i) => (
+            {item.album.slice(0, 6).map((src, i) => (
               <div key={i} className="relative overflow-hidden">
                 <Image
                   src={src}
@@ -62,7 +71,7 @@ export default function NewsCard({ item }: { item: NewsItem }) {
         </div>
       </article>
 
-      {modal !== null && (
+      {modal !== null && images.length > 0 && (
         <div
           className="fixed inset-0 z-[200] bg-black/90 flex items-center justify-center p-4"
           onClick={() => setModal(null)}
@@ -75,15 +84,13 @@ export default function NewsCard({ item }: { item: NewsItem }) {
               height={800}
               className="w-full h-auto max-h-[85vh] object-contain"
             />
-            <div className="absolute top-4 right-4 flex gap-2">
-              <button
-                onClick={() => setModal(null)}
-                className="w-10 h-10 rounded-full bg-white/20 text-white hover:bg-white/30"
-                aria-label="Fermer"
-              >
-                ×
-              </button>
-            </div>
+            <button
+              onClick={() => setModal(null)}
+              className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 text-white hover:bg-white/30"
+              aria-label="Fermer"
+            >
+              ×
+            </button>
             {images.length > 1 && (
               <>
                 <button
@@ -111,3 +118,5 @@ export default function NewsCard({ item }: { item: NewsItem }) {
     </>
   );
 }
+
+export type { NewsItem } from "@/lib/actualites-data";
