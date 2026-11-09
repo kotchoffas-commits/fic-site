@@ -25,7 +25,7 @@ export default function Page() {
       <MapSection />
       <section className="py-16 md:py-24 bg-green text-white">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Rejoignez la dynamique FIC.</h2>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Rejoignez la dynamique FIC.</h2>
           <p className="text-lg text-white/85 mb-10 max-w-2xl mx-auto">
             Ensemble, faisons de cette première édition un succès pour tout le territoire.
           </p>

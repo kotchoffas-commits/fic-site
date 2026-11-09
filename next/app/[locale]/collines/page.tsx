@@ -49,8 +49,8 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Le territoire</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Un département, mille richesses.</h2>
-            <p className="text-gray-600 text-lg">Le département des Collines regroupe plusieurs communes. Chacune porte une identité forte et des savoir-faire uniques.</p>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Un département, mille richesses.</h2>
+            <p className="text-gray-600 text-lg text-pretty">Le département des Collines regroupe plusieurs communes. Chacune porte une identité forte et des savoir-faire uniques.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {TERRITOIRE.map((c) => (
@@ -58,7 +58,7 @@ export default function Page() {
                 <div className="w-12 h-12 rounded-full bg-green/10 text-green flex items-center justify-center mb-4">
                   <c.Icon className="w-6 h-6" strokeWidth={1.75} />
                 </div>
-                <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
+                <h3 className="font-serif text-xl font-bold text-balance mb-2">{c.t}</h3>
                 <p className="text-gray-700">{c.d}</p>
               </div>
             ))}
@@ -70,7 +70,7 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Made in Collines</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold">Produits & savoir-faire.</h2>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance">Produits & savoir-faire.</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {MADE_IN.map((c) => (
@@ -78,7 +78,7 @@ export default function Page() {
                 <div className="w-12 h-12 rounded-full bg-gold/15 text-gold flex items-center justify-center mb-4">
                   <c.Icon className="w-6 h-6" strokeWidth={1.75} />
                 </div>
-                <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
+                <h3 className="font-serif text-xl font-bold text-balance mb-2">{c.t}</h3>
                 <p className="text-gray-700">{c.d}</p>
               </div>
             ))}
@@ -90,8 +90,8 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Tourisme</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Un patrimoine à vivre.</h2>
-            <p className="text-gray-600 text-lg">Des collines, des paysages, des lieux de mémoire et des traditions vivantes.</p>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Un patrimoine à vivre.</h2>
+            <p className="text-gray-600 text-lg text-pretty">Des collines, des paysages, des lieux de mémoire et des traditions vivantes.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {TOURISME.map((c) => (
@@ -100,7 +100,7 @@ export default function Page() {
                   <Image src={c.img} alt={c.t} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-110 transition duration-700" />
                 </div>
                 <div className="p-6">
-                  <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
+                  <h3 className="font-serif text-xl font-bold text-balance mb-2">{c.t}</h3>
                   <p className="text-gray-700">{c.d}</p>
                 </div>
               </article>
@@ -111,7 +111,7 @@ export default function Page() {
 
       <section className="py-16 md:py-24 bg-green text-white">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Venez découvrir les Collines.</h2>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Venez découvrir les Collines.</h2>
           <p className="text-lg text-white/85 mb-10 max-w-2xl mx-auto">Pendant la FIC 2026, profitez-en pour explorer le territoire et rencontrer ses acteurs.</p>
           <Link href="/programme" className="inline-block bg-gold text-green-dark px-6 py-3 rounded-lg font-medium hover:bg-gold-dark transition">
             Voir le programme

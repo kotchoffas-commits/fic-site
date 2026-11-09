@@ -34,7 +34,7 @@ export default function Countdown() {
     <div className="grid grid-cols-4 gap-3 md:gap-6 my-12 animate-fade-in-up">
       {cells.map((c) => (
         <div key={c.l} className="bg-white border border-gray-200 rounded-2xl py-6 text-center">
-          <div className="font-serif text-3xl md:text-5xl font-bold text-green">
+          <div className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance text-green">
             {String(c.v).padStart(2, "0")}
           </div>
           <div className="text-xs md:text-sm uppercase tracking-wider text-gray-500 mt-2">{c.l}</div>

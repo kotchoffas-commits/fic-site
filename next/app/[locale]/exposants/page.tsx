@@ -36,8 +36,8 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Catalogue</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Les acteurs du Made in Collines.</h2>
-            <p className="text-gray-600 text-lg">Artisans, producteurs, PME, coopératives et créateurs présents à la FIC 2026.</p>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Les acteurs du Made in Collines.</h2>
+            <p className="text-gray-600 text-lg text-pretty">Artisans, producteurs, PME, coopératives et créateurs présents à la FIC 2026.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {EXPO.map((e) => (
@@ -47,7 +47,7 @@ export default function Page() {
                 </div>
                 <div className="p-6">
                   <small className="block text-xs uppercase tracking-wider text-gold font-semibold mb-2">{e.cat}</small>
-                  <h4 className="font-serif text-xl font-bold mb-2">{e.name}</h4>
+                  <h4 className="font-serif text-xl font-bold text-balance mb-2">{e.name}</h4>
                   <p className="text-gray-700">{e.desc}</p>
                 </div>
               </div>
@@ -60,8 +60,8 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Appel à candidature</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Devenez exposant à la FIC 2026.</h2>
-            <p className="text-gray-600 text-lg">Producteur, artisan, entrepreneur ou coopérative ? Réservez votre stand pour la première édition.</p>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Devenez exposant à la FIC 2026.</h2>
+            <p className="text-gray-600 text-lg text-pretty">Producteur, artisan, entrepreneur ou coopérative ? Réservez votre stand pour la première édition.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {STEPS.map((s, i) => (
@@ -69,7 +69,7 @@ export default function Page() {
                 <div className="w-10 h-10 rounded-full bg-gold text-green-dark flex items-center justify-center font-serif font-bold mb-4">
                   {i + 1}
                 </div>
-                <h3 className="font-serif text-xl font-bold mb-2">{s.t}</h3>
+                <h3 className="font-serif text-xl font-bold text-balance mb-2">{s.t}</h3>
                 <p className="text-gray-700">{s.d}</p>
               </div>
             ))}
@@ -86,8 +86,8 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Partenaires</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Ils accompagnent la FIC.</h2>
-            <p className="text-gray-600 text-lg">Institutions, entreprises et organisations engagées aux côtés du territoire.</p>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Ils accompagnent la FIC.</h2>
+            <p className="text-gray-600 text-lg text-pretty">Institutions, entreprises et organisations engagées aux côtés du territoire.</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {Array.from({ length: 5 }).map((_, i) => (
@@ -101,7 +101,7 @@ export default function Page() {
 
       <section className="py-16 md:py-24 bg-green text-white">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Devenir partenaire de la FIC.</h2>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Devenir partenaire de la FIC.</h2>
           <p className="text-lg text-white/85 mb-10 max-w-2xl mx-auto">Associez votre image à un événement porteur de sens pour le territoire des Collines.</p>
           <Link href="/contact" className="inline-block bg-gold text-green-dark px-6 py-3 rounded-lg font-medium hover:bg-gold-dark transition">
             Discutons partenariat

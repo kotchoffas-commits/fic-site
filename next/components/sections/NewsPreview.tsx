@@ -52,7 +52,7 @@ export default function NewsPreview() {
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">
               Actualités
             </span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold">La FIC se prépare.</h2>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance">La FIC se prépare.</h2>
           </div>
           <Link
             href="/actualites"

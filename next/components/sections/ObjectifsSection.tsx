@@ -15,7 +15,7 @@ export default function ObjectifsSection() {
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Nos objectifs</span>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold">Ce que la FIC veut accomplir.</h2>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance">Ce que la FIC veut accomplir.</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {ITEMS.map((c) => (
@@ -24,7 +24,7 @@ export default function ObjectifsSection() {
                 <Image src={c.img} alt={c.t} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-110 transition duration-700" />
               </div>
               <div className="p-6">
-                <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
+                <h3 className="font-serif text-xl font-bold text-balance mb-2">{c.t}</h3>
                 <p className="text-gray-700">{c.d}</p>
               </div>
             </article>

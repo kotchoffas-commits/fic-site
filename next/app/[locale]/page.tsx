@@ -18,10 +18,10 @@ export default function Home() {
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">
               Le rendez-vous
             </span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">
               Place Egbakokou, Dassa-Zoumè.
             </h2>
-            <p className="text-gray-600 text-lg">
+            <p className="text-gray-600 text-lg text-pretty">
               Au cœur du département des Collines, la première édition de la FIC s'installe pendant quatorze jours sur la Place Egbakokou.
             </p>
           </div>

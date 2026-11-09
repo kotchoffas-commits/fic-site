@@ -4,8 +4,8 @@ export default function MapSection() {
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Nous trouver</span>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Place Egbakokou, Dassa-Zoumè.</h2>
-          <p className="text-gray-600 text-lg">Le cœur de la FIC, au centre du département des Collines.</p>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Place Egbakokou, Dassa-Zoumè.</h2>
+          <p className="text-gray-600 text-lg text-pretty">Le cœur de la FIC, au centre du département des Collines.</p>
         </div>
         <div className="relative aspect-video rounded-2xl overflow-hidden border border-gray-200">
           <iframe

@@ -23,7 +23,7 @@ export default function Hero() {
           <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-4 animate-fade-in-up">
             Édition 2026 · Dassa-Zoumè, Bénin
           </span>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold leading-[1.05] mb-6 animate-fade-in-up delay-100">
+          <h1 className="font-serif text-5xl md:text-7xl font-bold leading-[1.05] text-balance mb-6 animate-fade-in-up delay-100">
             La richesse de notre territoire,
             <em className="block not-italic text-gold">se vit, se partage, se transmet.</em>
           </h1>

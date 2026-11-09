@@ -83,12 +83,12 @@ export default function Page() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">Mentions légales</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold">Informations légales.</h2>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance">Informations légales.</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {MENTIONS.map((m) => (
               <div key={m.t} className="bg-white rounded-3xl p-8 border border-gray-100 hover:shadow-lg transition">
-                <h3 className="font-serif text-xl font-bold mb-2">{m.t}</h3>
+                <h3 className="font-serif text-xl font-bold text-balance mb-2">{m.t}</h3>
                 <p className="text-gray-700">{m.d}</p>
               </div>
             ))}

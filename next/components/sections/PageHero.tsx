@@ -28,7 +28,7 @@ export default function PageHero({
             {kicker}
           </span>
         )}
-        <h1 className="font-serif text-4xl md:text-6xl font-bold mb-4 animate-fade-in-up">
+        <h1 className="font-serif text-4xl md:text-6xl font-bold leading-[1.1] text-balance mb-4 animate-fade-in-up">
           {title}
         </h1>
         {subtitle && (

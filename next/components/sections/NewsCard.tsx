@@ -58,7 +58,7 @@ export default function NewsCard({ item }: { item: NewsItem }) {
             <span className="text-gray-500">{item.date}</span>
             <span className="text-gold font-semibold">{item.cat}</span>
           </div>
-          <h3 className="font-serif text-xl font-bold mb-2 line-clamp-2">{item.title}</h3>
+          <h3 className="font-serif text-xl font-bold text-balance mb-2 line-clamp-2">{item.title}</h3>
           <p className="text-gray-600 line-clamp-2 mb-4">{item.text}</p>
           <Link
             href={item.link}

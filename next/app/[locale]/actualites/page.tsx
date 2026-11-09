@@ -30,7 +30,7 @@ export default function Page() {
 
       <section className="py-16 md:py-24 bg-green text-white">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">Ne manquez aucune actualité.</h2>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">Ne manquez aucune actualité.</h2>
           <p className="text-lg text-white/85 mb-10 max-w-2xl mx-auto">Suivez notre page Facebook officielle pour être informé en temps réel.</p>
           <Link href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" rel="noopener" className="inline-block bg-gold text-green-dark px-6 py-3 rounded-lg font-medium hover:bg-gold-dark transition">
             Suivre sur Facebook

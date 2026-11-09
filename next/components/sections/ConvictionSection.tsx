@@ -13,10 +13,10 @@ export default function ConvictionSection() {
           <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">
             Notre conviction
           </span>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">
+          <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">
             Et si notre territoire était l'une de nos plus grandes richesses ?
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-lg text-pretty">
             Une production locale peut devenir une opportunité. Un savoir-faire peut devenir une activité économique.
             Un talent peut devenir une entreprise. Un patrimoine peut devenir une destination.
           </p>
@@ -24,7 +24,7 @@ export default function ConvictionSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {items.map((c) => (
             <div key={c.t} className="bg-cream rounded-3xl p-8 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
-              <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
+              <h3 className="font-serif text-xl font-bold text-balance mb-2">{c.t}</h3>
               <p className="text-gray-700">{c.d}</p>
             </div>
           ))}

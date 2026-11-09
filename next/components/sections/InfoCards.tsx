@@ -1,4 +1,4 @@
-﻿import { MapPin, Calendar, Target } from "lucide-react";
+import { MapPin, Calendar, Target } from "lucide-react";
 
 export default function InfoCards() {
   const cards = [
@@ -13,7 +13,7 @@ export default function InfoCards() {
           <div className="w-12 h-12 rounded-full bg-green/10 text-green flex items-center justify-center mb-4">
             <c.Icon className="w-6 h-6" strokeWidth={1.75} />
           </div>
-          <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
+          <h3 className="font-serif text-xl font-bold text-balance mb-2">{c.t}</h3>
           <p className="text-gray-700">{c.d}</p>
         </div>
       ))}

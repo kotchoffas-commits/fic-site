@@ -15,7 +15,7 @@ export default function VideoSection() {
             <span className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-gold mb-3">
               Annonce Officielle
             </span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">
+            <h2 className="font-serif text-3xl md:text-5xl font-bold leading-[1.15] text-balance mb-4">
               Quelque chose se prépare à Dassa-Zoumè…
             </h2>
             <p className="text-gray-700 leading-relaxed mb-6">
