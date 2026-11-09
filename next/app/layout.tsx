@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { Jost, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layout/Header";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -24,7 +25,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={`${jost.variable} ${playfair.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
