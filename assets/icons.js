@@ -1,5 +1,5 @@
 /* ============================================================
-   FIC — Système d'icônes SVG professionnel
+   FIC â€” SystÃ¨me d'icÃ´nes SVG professionnel
    Usage : <div class="ico" data-icon="building"></div>
    ============================================================ */
 
@@ -25,7 +25,7 @@ const FIC_ICONS = {
   check:      '<path d="M4 12l5 5L20 6"/>',
   arrow:      '<path d="M5 12h14M13 6l6 6-6 6"/>',
 
-  /* Filières & Made in Collines */
+  /* FiliÃ¨res & Made in Collines */
   wheat:      '<path d="M3 22 12 3l9 19M7 14h10M8 8h8"/>',
   shirt:      '<path d="M8 3 4 5l2 5 2-1v12h8V9l2 1 2-5-4-2-4 2-4-2z"/>',
   tools:      '<path d="M14 7 3 18l3 3 11-11"/><path d="m14 7 3-3 3 3-3 3M18 4l3 3-1.5 1.5L16.5 5.5"/>',

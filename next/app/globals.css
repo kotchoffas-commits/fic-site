@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Palette FIC — inchangée */
+  /* Palette FIC â€” inchangÃ©e */
   --color-green: #1a4d2e;
   --color-green-dark: #0d2e1a;
   --color-gold: #c49a3a;
@@ -19,7 +19,7 @@
   --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
 }
 
-/* Animations personnalisées (CONTEXTE.txt §3) */
+/* Animations personnalisÃ©es (CONTEXTE.txt Â§3) */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }

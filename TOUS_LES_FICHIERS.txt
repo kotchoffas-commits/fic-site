@@ -1,0 +1,2075 @@
+﻿CONTENU COMPLET DU PROJET FIC
+
+==================================================
+FICHIER : actualites.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualités — FIC 2026</title>
+  <meta name="description" content="Communiqués, préparatifs et mobilisation autour de la FIC 2026.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="Logo FIC" class="logo-img" loading="lazy" decoding="async">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img src="assets/logo.png" alt="Logo FIC" class="logo-img" loading="lazy" decoding="async">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">Édition</span><p>20 décembre 2026 —<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-Zoumè, Bénin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="kicker">Actualités</span>
+      <h1>La FIC se prépare.</h1>
+      <p>Communiqués officiels, rencontres institutionnelles et avancées de la première édition.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="grid-3 reveal" id="actualites-grid">
+
+      <!-- PUBLICATION 1 -->
+      <article class="news-card" data-date="2026-11-09">
+        <img src="assets/actualites/id1.jpg" alt="Une dynamique soutenue" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Partenariat</span>
+          </div>
+          <h3 class="news-card-title">Une dynamique soutenue et accompagnée</h3>
+          <p class="news-card-text">
+            La réussite d’une initiative repose aussi sur la mobilisation de plusieurs acteurs. La formation sur le packaging a bénéficié du soutien des autorités locales, des médias et des plateformes numériques...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 2 -->
+      <article class="news-card" data-date="2026-11-09">
+        <div class="news-card-album album-6">
+          <img src="assets/actualites/al1.jpg" alt="Photo d'album 1" loading="lazy" decoding="async">
+          <img src="assets/actualites/al2.jpg" alt="Photo d'album 2" loading="lazy" decoding="async">
+          <img src="assets/actualites/al3.jpg" alt="Photo d'album 3" loading="lazy" decoding="async">
+          <img src="assets/actualites/al4.jpg" alt="Photo d'album 4" loading="lazy" decoding="async">
+          <img src="assets/actualites/al5.jpg" alt="Photo d'album 5" loading="lazy" decoding="async">
+          <img src="assets/actualites/al6.jpg" alt="Photo d'album 6" loading="lazy" decoding="async">
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Coulisses</span>
+          </div>
+          <h3 class="news-card-title">Les coulisses de la préparation</h3>
+          <p class="news-card-text">
+            Découvrez en images les coulisses de la préparation de la première édition de la FIC. Une équipe mobilisée pour valoriser les Collines...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Voir l'album sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 3 -->
+      <article class="news-card" data-date="2026-11-09">
+        <div class="news-card-album album-4">
+          <img src="assets/actualites/co1.jpg" alt="Collines de Dassa-Zoumè 1" loading="lazy" decoding="async">
+          <img src="assets/actualites/co2.jpg" alt="Collines de Dassa-Zoumè 2" loading="lazy" decoding="async">
+          <img src="assets/actualites/co3.jpg" alt="Collines de Dassa-Zoumè 3" loading="lazy" decoding="async">
+          <img src="assets/actualites/co4.jpg" alt="Collines de Dassa-Zoumè 4" loading="lazy" decoding="async">
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Patrimoine</span>
+          </div>
+          <h3 class="news-card-title">Les Collines de Dassa-Zoumè : un patrimoine naturel</h3>
+          <p class="news-card-text">
+            Situées dans la commune de Dassa-Zoumè, ces impressionnantes formations rocheuses font la renommée de la cité des 41 collines...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Voir l'album sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 4 -->
+      <article class="news-card" data-date="2026-11-08">
+        <div class="news-card-album album-many">
+          <img src="assets/actualites/ns1.jpg" alt="Formation numérique 1" loading="lazy" decoding="async">
+          <img src="assets/actualites/ns2.jpg" alt="Formation numérique 2" loading="lazy" decoding="async">
+          <img src="assets/actualites/ns3.jpg" alt="Formation numérique 3" loading="lazy" decoding="async">
+          <img src="assets/actualites/ns4.jpg" alt="Formation numérique 4" loading="lazy" decoding="async">
+          <img src="assets/actualites/ns5.jpg" alt="Formation numérique 5" loading="lazy" decoding="async">
+          <div class="album-more" data-count="+4">
+            <img src="assets/actualites/ns6.jpg" alt="Formation numérique 6" loading="lazy" decoding="async">
+          </div>
+          <img src="assets/actualites/ns7.jpg" alt="Formation numérique 7" class="hidden-thumb">
+          <img src="assets/actualites/ns8.jpg" alt="Formation numérique 8" class="hidden-thumb">
+          <img src="assets/actualites/ns9.jpg" alt="Formation numérique 9" class="hidden-thumb">
+          <img src="assets/actualites/ns10.jpg" alt="Formation numérique 10" class="hidden-thumb">
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Formation</span>
+          </div>
+          <h3 class="news-card-title">Le numérique au service du Made in Collines !</h3>
+          <p class="news-card-text">
+            À l’ère du numérique, produire ne suffit plus : il faut également savoir faire connaître ses produits...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Voir les autres photos sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 5 -->
+      <article class="news-card" data-date="2026-11-07">
+        <div class="news-card-album album-4">
+          <img src="assets/actualites/tn1.jpg" alt="Transformation locale 1" loading="lazy" decoding="async">
+          <img src="assets/actualites/tn2.jpg" alt="Transformation locale 2" loading="lazy" decoding="async">
+          <img src="assets/actualites/tn3.jpg" alt="Transformation locale 3" loading="lazy" decoding="async">
+          <img src="assets/actualites/tn4.jpg" alt="Transformation locale 4" loading="lazy" decoding="async">
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Innovation</span>
+          </div>
+          <h3 class="news-card-title">Transformer nos richesses locales !</h3>
+          <p class="news-card-text">
+            Comment tirer le meilleur des matières premières disponibles dans notre environnement ?...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Voir l'album sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 6 -->
+      <article class="news-card" data-date="2026-11-05">
+        <div class="news-card-album album-many">
+          <img src="assets/actualites/be1.jpg" alt="Photo formation 1" loading="lazy" decoding="async">
+          <img src="assets/actualites/be2.jpg" alt="Photo formation 2" loading="lazy" decoding="async">
+          <img src="assets/actualites/be3.jpg" alt="Photo formation 3" loading="lazy" decoding="async">
+          <img src="assets/actualites/be4.jpg" alt="Photo formation 4" loading="lazy" decoding="async">
+          <img src="assets/actualites/be5.jpg" alt="Photo formation 5" loading="lazy" decoding="async">
+          <div class="album-more" data-count="+4">
+            <img src="assets/actualites/be6.jpg" alt="Photo formation 6" loading="lazy" decoding="async">
+          </div>
+          <img src="assets/actualites/be7.jpg" alt="Photo formation 7" class="hidden-thumb">
+          <img src="assets/actualites/be8.jpg" alt="Photo formation 8" class="hidden-thumb">
+          <img src="assets/actualites/be9.jpg" alt="Photo formation 9" class="hidden-thumb">
+          <img src="assets/actualites/be10.jpg" alt="Photo formation 10" class="hidden-thumb">
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Formation</span>
+          </div>
+          <h3 class="news-card-title">Bien emballer pour mieux valoriser</h3>
+          <p class="news-card-text">
+            Le packaging et le positionnement des produits Made in Collines à l’ère du numérique étaient au cœur de cette formation...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Voir l'album sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 7 -->
+      <article class="news-card" data-date="2026-11-04">
+        <img src="assets/actualites/noa.jpg" alt="Le Made in Collines se prépare" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Formation</span>
+          </div>
+          <h3 class="news-card-title">Le Made in Collines se prépare !</h3>
+          <p class="news-card-text">
+            En prélude à la première édition de la FIC, entrepreneurs et artisans ont participé à une formation pratique...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 8 -->
+      <article class="news-card" data-date="2026-10-31">
+        <div class="news-card-album album-6">
+          <img src="assets/actualites/al1.jpg" alt="Formation FIC 1" loading="lazy" decoding="async">
+          <img src="assets/actualites/al2.jpg" alt="Formation FIC 2" loading="lazy" decoding="async">
+          <img src="assets/actualites/al3.jpg" alt="Formation FIC 3" loading="lazy" decoding="async">
+          <img src="assets/actualites/al4.jpg" alt="Formation FIC 4" loading="lazy" decoding="async">
+          <img src="assets/actualites/al5.jpg" alt="Formation FIC 5" loading="lazy" decoding="async">
+          <img src="assets/actualites/al6.jpg" alt="Formation FIC 6" loading="lazy" decoding="async">
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Oct. 2026</span>
+            <span class="news-card-cat">Formation</span>
+          </div>
+          <h3 class="news-card-title">Les produits Made in Collines au cœur du numérique</h3>
+          <p class="news-card-text">
+            Dans le cadre de ses initiatives, la FIC a organisé le samedi 31 octobre 2026 une formation consacrée au packaging...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Voir l'album sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 9 -->
+      <article class="news-card" data-date="2026-08-15">
+        <img src="assets/actualites/cp.jpg" alt="Packaging et positionnement" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Août 2026</span>
+            <span class="news-card-cat">Formation</span>
+          </div>
+          <h3 class="news-card-title">Un bon produit doit savoir se distinguer</h3>
+          <p class="news-card-text">
+            Sur un marché où les consommateurs ont de nombreux choix, la qualité seule ne suffit pas toujours...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 10 -->
+      <article class="news-card" data-date="2026-08-10">
+        <img src="assets/actualites/pa.jpg" alt="Formation en marketing opérationnel" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Août 2026</span>
+            <span class="news-card-cat">Formation</span>
+          </div>
+          <h3 class="news-card-title">À la rencontre de votre formateur</h3>
+          <p class="news-card-text">
+            Pour accompagner les acteurs économiques, la FIC met à l'honneur le marketing opérationnel avec ASSANVI Stanislas...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 11 -->
+      <article class="news-card" data-date="2026-08-05">
+        <img src="assets/actualites/o1.jpg" alt="Ouèssè, commune agricole" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Août 2026</span>
+            <span class="news-card-cat">Découverte</span>
+          </div>
+          <h3 class="news-card-title">Ouèssè : Vaste et généreuse</h3>
+          <p class="news-card-text">
+            La commune d'Ouèssè regorge de ressources agricoles qui font la fierté des Collines...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 12 -->
+      <article class="news-card" data-date="2026-08-01">
+        <img src="assets/actualites/sa1.jpg" alt="Savè, porte d'entrée des Collines" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Août 2026</span>
+            <span class="news-card-cat">Découverte</span>
+          </div>
+          <h3 class="news-card-title">Savè : Porte d'entrée des Collines</h3>
+          <p class="news-card-text">
+            Réputée pour son dynamisme économique et sa position stratégique, Savè est une étape clé à découvrir...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 13 -->
+      <article class="news-card" data-date="2026-07-28">
+        <img src="assets/actualites/gl1.jpg" alt="Glazoué, dynamisme agricole" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juillet 2026</span>
+            <span class="news-card-cat">Découverte</span>
+          </div>
+          <h3 class="news-card-title">Glazoué : Dynamisme agricole et hospitalité</h3>
+          <p class="news-card-text">
+            Dynamisme agricole et hospitalité légendaire, Glazoué a beaucoup à offrir...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 14 -->
+      <article class="news-card" data-date="2026-07-20">
+        <img src="assets/actualites/dz1.jpg" alt="Dassa-Zoumè, terre de collines" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juillet 2026</span>
+            <span class="news-card-cat">Tournée</span>
+          </div>
+          <h3 class="news-card-title">Dassa-Zoumè : Terre de collines</h3>
+          <p class="news-card-text">
+            Terre de collines sacrées et de savoir-faire artisanal, Dassa-Zoumè fera partie d'une étape incontournable...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 15 -->
+      <article class="news-card" data-date="2026-07-15">
+        <img src="assets/actualites/st1.jpg" alt="Valorisation culturelle et touristique" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juillet 2026</span>
+            <span class="news-card-cat">Tourisme</span>
+          </div>
+          <h3 class="news-card-title">La valorisation culturelle et touristique</h3>
+          <p class="news-card-text">
+            Patrimoine, traditions, sites naturels : les Collines ont tant à offrir, et la Foire est l'occasion de le célébrer ensemble...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 16 -->
+      <article class="news-card" data-date="2026-07-10">
+        <img src="assets/actualites/pel1.jpg" alt="Pèlerinage marial à Dassa-Zoumè" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juillet 2026</span>
+            <span class="news-card-cat">Communauté</span>
+          </div>
+          <h3 class="news-card-title">Bon pèlerinage à tous les fidèles</h3>
+          <p class="news-card-text">
+            À l’occasion du grand pèlerinage marial à la Grotte Notre-Dame d’Arigbo, à Dassa-Zoumè, la FIC adresse ses vœux...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 17 -->
+      <article class="news-card" data-date="2026-07-05">
+        <img src="assets/actualites/g1.jpg" alt="Développement économique local" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juillet 2026</span>
+            <span class="news-card-cat">Économie</span>
+          </div>
+          <h3 class="news-card-title">Le développement économique local</h3>
+          <p class="news-card-text">
+            La FIC met en lumière les entrepreneurs, producteurs et artisans qui font vivre les Collines au quotidien...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 18 -->
+      <article class="news-card" data-date="2026-07-01">
+        <video class="news-card-video" controls preload="metadata">
+          <source src="assets/actualites/vid2.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juillet 2026</span>
+            <span class="news-card-cat">Institutionnel</span>
+          </div>
+          <h3 class="news-card-title">La FIC en tournée stratégique à Cotonou</h3>
+          <p class="news-card-text">
+            La FIC poursuit son impulsion depuis Cotonou avec des rencontres stratégiques...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Pour voir sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 19 -->
+      <article class="news-card" data-date="2026-06-25">
+        <img src="assets/actualites/s1.jpg" alt="Fête de l'Igname à Savalou" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juin 2026</span>
+            <span class="news-card-cat">Terrain</span>
+          </div>
+          <h3 class="news-card-title">Fête de l'Igname à Savalou : la FIC sur le terrain</h3>
+          <p class="news-card-text">
+            À l'occasion de la Fête de l'Igname, l'équipe de la FIC était à Savalou pour vivre cette grande célébration...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 20 -->
+      <article class="news-card" data-date="2026-06-20">
+        <img src="assets/actualites/i1.jpg" alt="Rendez-vous demain" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juin 2026</span>
+            <span class="news-card-cat">Teaser</span>
+          </div>
+          <h3 class="news-card-title">Rendez-vous demain dans les Collines</h3>
+          <p class="news-card-text">
+            Demain, 15 août… Quelque chose se prépare dans les Collines...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 21 -->
+      <article class="news-card" data-date="2026-06-15">
+        <img src="assets/actualites/a1.jpg" alt="La FIC arrive" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juin 2026</span>
+            <span class="news-card-cat">Annonce</span>
+          </div>
+          <h3 class="news-card-title">L'attente touche bientôt à sa fin</h3>
+          <p class="news-card-text">
+            Les Collines s'apprêtent à écrire une nouvelle page de leur histoire...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 22 -->
+      <article class="news-card" data-date="2026-06-10">
+        <img src="assets/actualites/v1.jpg" alt="Découverte des Collines" class="news-card-single-img" loading="lazy" decoding="async">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juin 2026</span>
+            <span class="news-card-cat">Coulisses</span>
+          </div>
+          <h3 class="news-card-title">Retour sur une semaine d'exploration</h3>
+          <p class="news-card-text">
+            Cette semaine, on a exploré ensemble la culture, l'économie, le tourisme et les produits des Collines...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Voir les 13 photos sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 23 -->
+      <article class="news-card" data-date="2026-06-05">
+        <div class="news-card-album album-2">
+          <img src="assets/actualites/p1.jpg" alt="Délégation FIC reçue par le Maire de Glazoué" loading="lazy" decoding="async">
+          <img src="assets/actualites/p2.jpg" alt="Échanges à la Mairie de Glazoué" loading="lazy" decoding="async">
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Juin 2026</span>
+            <span class="news-card-cat">Préparatifs</span>
+          </div>
+          <h3 class="news-card-title">Le Maire de Glazoué reçoit la délégation de la FIC</h3>
+          <p class="news-card-text">
+            Dans le cadre des préparatifs, une délégation de la FIC a été reçue par le Maire de Glazoué...
+          </p>
+          <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="news-card-link">Lire la suite sur Facebook &rarr;</a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- BOUTON VOIR PLUS -->
+    <div style="text-align: center; margin: 48px 0 24px;">
+      <button id="btn-voir-plus" class="btn btn-primary" style="display: none;">Voir plus d'actualités</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Ne manquez aucune actualité.</h2>
+    <p>Suivez notre page Facebook officielle pour être informé en temps réel.</p>
+    <a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank" class="btn btn-primary">Suivre sur Facebook</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/logo.png" alt="Logo FIC" class="logo-img" loading="lazy" decoding="async">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dédiée à la valorisation des richesses, savoir-faire et opportunités du département des Collines. Première édition du 20 décembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-Zoumè, Bénin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Foire Internationale des Collines. Tous droits réservés.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">—</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<div id="imageModal" class="image-modal">
+  <button class="image-modal-close" id="closeModal">&times;</button>
+  <div class="image-modal-prev" id="prevImage">&#10094;</div>
+  <img class="image-modal-content" id="modalImage" alt="Agrandissement de l'image">
+  <div class="image-modal-next" id="nextImage">&#10095;</div>
+  <div class="image-modal-counter" id="imageCounter">1 / 1</div>
+</div>
+
+<!-- SCRIPT POUR LE BOUTON VOIR PLUS -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const articles = document.querySelectorAll('.news-card');
+    const btnVoirPlus = document.getElementById('btn-voir-plus');
+    const articlesParPage = 6;
+    let articlesVisibles = articlesParPage;
+
+    if (articles.length > articlesParPage) {
+      for (let i = articlesParPage; i < articles.length; i++) {
+        articles[i].style.display = "none";
+      }
+      btnVoirPlus.style.display = "inline-flex";
+    }
+
+    btnVoirPlus.addEventListener("click", function() {
+      for (let i = articlesVisibles; i < articlesVisibles + articlesParPage; i++) {
+        if (articles[i]) {
+          articles[i].style.display = "";
+        }
+      }
+      articlesVisibles += articlesParPage;
+      if (articlesVisibles >= articles.length) {
+        btnVoirPlus.style.display = "none";
+      }
+    });
+  });
+</script>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+==================================================
+FICHIER : collines.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les Collines & Made in Collines ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â FIC 2026</title>
+  <meta name="description" content="Territoire, produits, savoir-faire et tourisme des Collines.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">ÃƒÆ’Ã¢â‚¬Â°dition</span><p>20 dÃƒÆ’Ã‚Â©cembre 2026 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank">Facebook</a><a href="#">Instagram</a><a href="https://www.linkedin.com/in/yannick-clovis-otchoumare-06629139a" target="_blank" rel="noopener">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Les Collines</span>
+    <h1>Un territoire ÃƒÆ’Ã‚Â  dÃƒÆ’Ã‚Â©couvrir.</h1>
+    <p>Un territoire ne se rÃƒÆ’Ã‚Â©sume pas ÃƒÆ’Ã‚Â  une carte. Il se raconte ÃƒÆ’Ã‚Â  travers ses femmes et ses hommes, ses produits, sa culture et son patrimoine.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Le territoire</span>
+      <h2>Un dÃƒÆ’Ã‚Â©partement, mille richesses.</h2>
+      <p>Le dÃƒÆ’Ã‚Â©partement des Collines regroupe plusieurs communes. Chacune porte une identitÃƒÆ’Ã‚Â© forte et des savoir-faire uniques.</p>
+    </div>
+    <div class="grid-3 reveal">
+      <div class="card"><div class="card-icon" data-icon="map"></div><h3>Dassa-ZoumÃƒÆ’Ã‚Â¨</h3><p>Capitale des Collines, ville-carrefour et terre de pÃƒÆ’Ã‚Â¨lerinage.</p></div>
+      <div class="card"><div class="card-icon" data-icon="leaf"></div><h3>GlazouÃƒÆ’Ã‚Â©</h3><p>Commune agricole, marchÃƒÆ’Ã‚Â© et carrefour des ÃƒÆ’Ã‚Â©changes.</p></div>
+      <div class="card"><div class="card-icon" data-icon="crown"></div><h3>Savalou</h3><p>Collines, palais royaux et tradition vivante.</p></div>
+      <div class="card"><div class="card-icon" data-icon="wheat"></div><h3>SavÃƒÆ’Ã‚Â¨</h3><p>Terres agricoles et production vivriÃƒÆ’Ã‚Â¨re.</p></div>
+      <div class="card"><div class="card-icon" data-icon="drop"></div><h3>BantÃƒÆ’Ã‚Â¨</h3><p>Terroir de produits naturels et de traditions.</p></div>
+      <div class="card"><div class="card-icon" data-icon="mountain"></div><h3>OuÃƒÆ’Ã‚Â¨ssÃƒÆ’Ã‚Â¨</h3><p>ÃƒÆ’Ã¢â‚¬Â°levage, agriculture et paysages de savane.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Made in Collines</span>
+      <h2>Produits & savoir-faire.</h2>
+    </div>
+    <div class="grid-3 reveal">
+      <div class="card"><div class="card-icon" data-icon="wheat"></div><h3>Agro-transformation</h3><p>Farines, jus, ÃƒÆ’Ã‚Â©pices, produits dÃƒÆ’Ã‚Â©rivÃƒÆ’Ã‚Â©s du terroir.</p></div>
+      <div class="card"><div class="card-icon" data-icon="shirt"></div><h3>Textile</h3><p>Tissus, pagnes et crÃƒÆ’Ã‚Â©ations artisanales.</p></div>
+      <div class="card"><div class="card-icon" data-icon="tools"></div><h3>Artisanat d'art</h3><p>Sculptures, objets bois et crÃƒÆ’Ã‚Â©ations traditionnelles.</p></div>
+      <div class="card"><div class="card-icon" data-icon="drop"></div><h3>Produits naturels</h3><p>Miel, beurre de karitÃƒÆ’Ã‚Â©, plantes mÃƒÆ’Ã‚Â©dicinales.</p></div>
+      <div class="card"><div class="card-icon" data-icon="fork"></div><h3>Gastronomie</h3><p>Plats et condiments typiques de la rÃƒÆ’Ã‚Â©gion.</p></div>
+      <div class="card"><div class="card-icon" data-icon="bag"></div><h3>Maroquinerie</h3><p>Sacs, ceintures et accessoires en cuir.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Tourisme</span>
+      <h2>Un patrimoine ÃƒÆ’Ã‚Â  vivre.</h2>
+      <p>Des collines, des paysages, des lieux de mÃƒÆ’Ã‚Â©moire et des traditions vivantes.</p>
+    </div>
+    
+    <div class="grid-3 reveal">
+      
+      <!-- 1. Collines sacrÃƒÆ’Ã‚Â©es -->
+      <div class="card has-image">
+        <div class="card-img">
+          <img loading="lazy" decoding="async" src="assets/tourisme/collines-sacrees.webp" alt="Collines sacrÃƒÆ’Ã‚Â©es">
+        </div>
+        <div class="card-body">
+          <h3>Collines sacrÃƒÆ’Ã‚Â©es</h3>
+          <p>Panoramas et sites spirituels chargÃƒÆ’Ã‚Â©s d'histoire.</p>
+        </div>
+      </div>
+
+      <!-- 2. Sanctuaire marial -->
+      <div class="card has-image">
+        <div class="card-img">
+          <img loading="lazy" decoding="async" src="assets/tourisme/sanctuaire-marial.webp" alt="Sanctuaire marial">
+        </div>
+        <div class="card-body">
+          <h3>Sanctuaire marial</h3>
+          <p>Haut lieu de pÃƒÆ’Ã‚Â¨lerinage ÃƒÆ’Ã‚Â  Dassa-ZoumÃƒÆ’Ã‚Â¨.</p>
+        </div>
+      </div>
+
+      <!-- 3. Palais royaux -->
+      <div class="card has-image">
+        <div class="card-img">
+          <img loading="lazy" decoding="async" src="assets/tourisme/palais-royaux.jpg" alt="Palais royaux">
+        </div>
+        <div class="card-body">
+          <h3>Palais royaux</h3>
+          <p>MÃƒÆ’Ã‚Â©moire des royaumes et chefferies des Collines.</p>
+        </div>
+      </div>
+
+      <!-- 4. Paysages naturels -->
+      <div class="card has-image">
+        <div class="card-img">
+          <img loading="lazy" decoding="async" src="assets/tourisme/paysages-naturels.jpg" alt="Paysages naturels">
+        </div>
+        <div class="card-body">
+          <h3>Paysages naturels</h3>
+          <p>Savanes, forÃƒÆ’Ã‚Âªts et points de vue exceptionnels.</p>
+        </div>
+      </div>
+
+      <!-- 5. FÃƒÆ’Ã‚Âªtes traditionnelles -->
+      <div class="card has-image">
+        <div class="card-img">
+          <img loading="lazy" decoding="async" src="assets/tourisme/fetes-traditionnelles.jpg" alt="FÃƒÆ’Ã‚Âªtes traditionnelles">
+        </div>
+        <div class="card-body">
+          <h3>FÃƒÆ’Ã‚Âªtes traditionnelles</h3>
+          <p>Rituels, danses et cÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©brations locales.</p>
+        </div>
+      </div>
+
+      <!-- 6. RandonnÃƒÆ’Ã‚Â©es & circuits -->
+      <div class="card has-image">
+        <div class="card-img">
+          <img loading="lazy" decoding="async" src="assets/tourisme/randonnees-circuits.jpg" alt="RandonnÃƒÆ’Ã‚Â©es et circuits">
+        </div>
+        <div class="card-body">
+          <h3>RandonnÃƒÆ’Ã‚Â©es & circuits</h3>
+          <p>Parcours de dÃƒÆ’Ã‚Â©couverte culturelle et naturelle.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Venez dÃƒÆ’Ã‚Â©couvrir les Collines.</h2>
+    <p>Pendant la FIC 2026, profitez-en pour explorer le territoire et rencontrer ses acteurs.</p>
+    <a href="programme.html" class="btn btn-primary">Voir le programme</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dÃƒÆ’Ã‚Â©diÃƒÆ’Ã‚Â©e ÃƒÆ’Ã‚Â  la valorisation des richesses, savoir-faire et opportunitÃƒÆ’Ã‚Â©s du dÃƒÆ’Ã‚Â©partement des Collines. PremiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition du 20 dÃƒÆ’Ã‚Â©cembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Ãƒâ€šÃ‚Â© 2026 Foire Internationale des Collines. Tous droits rÃƒÆ’Ã‚Â©servÃƒÆ’Ã‚Â©s.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+==================================================
+FICHIER : contact.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â FIC 2026</title>
+  <meta name="description" content="Contactez lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©quipe de la Foire Internationale des Collines.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">ActualitÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©s</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â°dition</span><p>20 dÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©cembre 2026 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-ZoumÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨, BÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©nin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="#">Facebook</a><a href="#">Instagram</a><a href="https://www.linkedin.com/in/yannick-clovis-otchoumare-06629139a" target="_blank" rel="noopener">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Contact</span>
+    <h1>Prenons contact.</h1>
+    <p>Une question, une candidature, un partenariat ? LÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©quipe FIC vous rÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©pond.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-block">
+          <span class="info-label">Lieu</span>
+          <div class="info-value">Place Egbakokou<small>Dassa-ZoumÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨, DÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©partement des Collines ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â BÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©nin</small></div>
+        </div>
+        <div class="info-block">
+          <span class="info-label">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â°dition</span>
+          <div class="info-value">20 dÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©c. 2026 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â 2 janv. 2027<small>Quatorze jours de foire</small></div>
+        </div>
+        <div class="info-block">
+          <span class="info-label">Email</span>
+          <div class="info-value"><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></div>
+        </div>
+        <div class="info-block">
+          <span class="info-label">TÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©phone</span>
+          <div class="info-value"><a href="tel:+2290156282878">+229 01 56 28 28 78</a></div>
+        </div>
+        <div class="social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="WhatsApp">WA</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+      </div>
+      <form onsubmit="handleSubmit(event)">
+        <div class="field">
+          <label for="nom">Nom complet / Organisation</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="field">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="tel">TÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©phone / WhatsApp</label>
+          <input type="tel" id="tel" name="tel">
+        </div>
+        <div class="field">
+          <label for="profil">Je suisÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦</label>
+          <select id="profil" name="profil" required>
+            <option value="">SÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©lectionner</option>
+            <option>Exposant / Producteur</option>
+            <option>Artisan</option>
+            <option>Entrepreneur</option>
+            <option>Partenaire institutionnel</option>
+            <option>Visiteur</option>
+            <option>Presse / MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©dia</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+      </form>
+    </div>
+    <div class="map-box">Carte interactive ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Place Egbakokou, Dassa-ZoumÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨</div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Mentions lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gales</span>
+      <h2>Informations lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gales.</h2>
+    </div>
+    <div class="grid-2 reveal">
+      <div class="card"><h3>ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â°diteur du site</h3><p>Foire Internationale des Collines (FIC). SiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨ge : Dassa-ZoumÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨, DÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©partement des Collines, BÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©nin. Contact : fic.collines@gmail.com</p></div>
+      <div class="card"><h3>HÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©bergement</h3><p>Site hÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©bergÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© par LWS (Ligne Web Services), France.</p></div>
+      <div class="card"><h3>PropriÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© intellectuelle</h3><p>LÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ensemble des contenus (textes, images, logos) est la propriÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© de la FIC ou de ses partenaires. Toute reproduction sans autorisation est interdite.</p></div>
+      <div class="card"><h3>DonnÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©es personnelles</h3><p>Les informations transmises via le formulaire sont utilisÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©es uniquement pour rÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©pondre ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  votre demande. Vous pouvez demander leur suppression ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  fic.collines@gmail.com.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©diÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©e ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  la valorisation des richesses, savoir-faire et opportunitÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©s du dÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©partement des Collines. PremiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨re ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©dition du 20 dÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©cembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">ActualitÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©s</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-ZoumÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨, BÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©nin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© 2026 Foire Internationale des Collines. Tous droits rÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©servÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©s.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+==================================================
+FICHIER : exposants.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exposants & Partenaires ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â FIC 2026</title>
+  <meta name="description" content="Catalogue des exposants, appel ÃƒÆ’Ã‚Â  candidature et partenaires de la FIC 2026.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">ÃƒÆ’Ã¢â‚¬Â°dition</span><p>20 dÃƒÆ’Ã‚Â©cembre 2026 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank">Facebook</a><a href="#">Instagram</a><a href="https://www.linkedin.com/in/yannick-clovis-otchoumare-06629139a" target="_blank" rel="noopener">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Exposants & Partenaires</span>
+    <h1>Le cÃƒâ€¦Ã¢â‚¬Å“ur battant de la FIC.</h1>
+    <p>Producteurs, artisans, entrepreneurs, institutions et partenaires rÃƒÆ’Ã‚Â©unis autour du Made in Collines.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Catalogue</span>
+      <h2>Les acteurs du Made in Collines.</h2>
+      <p>Artisans, producteurs, PME, coopÃƒÆ’Ã‚Â©ratives et crÃƒÆ’Ã‚Â©ateurs prÃƒÆ’Ã‚Â©sents ÃƒÆ’Ã‚Â  la FIC 2026.</p>
+    </div>
+    <div class="expo-grid reveal">
+      <div class="expo-card">
+        <div class="expo-cover" data-icon="wheat"></div>
+        <small>Agro-transformation</small>
+        <h4>CoopÃƒÆ’Ã‚Â©rative Agricole des Collines</h4>
+        <p>Produits transformÃƒÆ’Ã‚Â©s du terroir : farines, jus, ÃƒÆ’Ã‚Â©pices.</p>
+      </div>
+      <div class="expo-card">
+        <div class="expo-cover" data-icon="shirt"></div>
+        <small>Artisanat</small>
+        <h4>Atelier Textile Dassa</h4>
+        <p>Tissus traditionnels, pagne et crÃƒÆ’Ã‚Â©ations locales.</p>
+      </div>
+      <div class="expo-card">
+        <div class="expo-cover" data-icon="tools"></div>
+        <small>Artisanat dÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢art</small>
+        <h4>Sculpteurs de GlazouÃƒÆ’Ã‚Â©</h4>
+        <p>Objets dÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢art, sculptures et crÃƒÆ’Ã‚Â©ations bois.</p>
+      </div>
+      <div class="expo-card">
+        <div class="expo-cover" data-icon="drop"></div>
+        <small>Produits naturels</small>
+        <h4>Miel des Collines</h4>
+        <p>Miel naturel et produits dÃƒÆ’Ã‚Â©rivÃƒÆ’Ã‚Â©s.</p>
+      </div>
+      <div class="expo-card">
+        <div class="expo-cover" data-icon="palette"></div>
+        <small>Mode & design</small>
+        <h4>CrÃƒÆ’Ã‚Â©ations Savannah</h4>
+        <p>PrÃƒÆ’Ã‚Âªt-ÃƒÆ’Ã‚Â -porter et accessoires inspirÃƒÆ’Ã‚Â©s du territoire.</p>
+      </div>
+      <div class="expo-card">
+        <div class="expo-cover" data-icon="fork"></div>
+        <small>Gastronomie</small>
+        <h4>Saveurs de Dassa</h4>
+        <p>Plats, condiments et spÃƒÆ’Ã‚Â©cialitÃƒÆ’Ã‚Â©s locales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Appel ÃƒÆ’Ã‚Â  candidature</span>
+      <h2>Devenez exposant ÃƒÆ’Ã‚Â  la FIC 2026.</h2>
+      <p>Producteur, artisan, entrepreneur ou coopÃƒÆ’Ã‚Â©rative ? RÃƒÆ’Ã‚Â©servez votre stand pour la premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition.</p>
+    </div>
+    <div class="grid-3 reveal">
+      <div class="card"><h3>Candidatez</h3><p>PrÃƒÆ’Ã‚Â©sentez votre activitÃƒÆ’Ã‚Â© et votre offre via le formulaire de contact.</p></div>
+      <div class="card"><h3>Validation</h3><p>LÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â©quipe FIC ÃƒÆ’Ã‚Â©tudie votre dossier et vous rÃƒÆ’Ã‚Â©pond dans les meilleurs dÃƒÆ’Ã‚Â©lais.</p></div>
+      <div class="card"><h3>Installation</h3><p>Attribution du stand et prÃƒÆ’Ã‚Â©paration de votre participation ÃƒÆ’Ã‚Â  la foire.</p></div>
+    </div>
+    <div class="actions mt-8">
+      <a href="contact.html" class="btn btn-primary">Manifester mon intÃƒÆ’Ã‚Â©rÃƒÆ’Ã‚Âªt</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Partenaires</span>
+      <h2>Ils accompagnent la FIC.</h2>
+      <p>Institutions, entreprises et organisations engagÃƒÆ’Ã‚Â©es aux cÃƒÆ’Ã‚Â´tÃƒÆ’Ã‚Â©s du territoire.</p>
+    </div>
+    <div class="partners-row reveal">
+      <div class="partner-logo">Logo partenaire</div>
+      <div class="partner-logo">Logo partenaire</div>
+      <div class="partner-logo">Logo partenaire</div>
+      <div class="partner-logo">Logo partenaire</div>
+      <div class="partner-logo">Logo partenaire</div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Devenir partenaire de la FIC.</h2>
+    <p>Associez votre image ÃƒÆ’Ã‚Â  un ÃƒÆ’Ã‚Â©vÃƒÆ’Ã‚Â©nement porteur de sens pour le territoire des Collines.</p>
+    <a href="contact.html" class="btn btn-primary">Discutons partenariat</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dÃƒÆ’Ã‚Â©diÃƒÆ’Ã‚Â©e ÃƒÆ’Ã‚Â  la valorisation des richesses, savoir-faire et opportunitÃƒÆ’Ã‚Â©s du dÃƒÆ’Ã‚Â©partement des Collines. PremiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition du 20 dÃƒÆ’Ã‚Â©cembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Ãƒâ€šÃ‚Â© 2026 Foire Internationale des Collines. Tous droits rÃƒÆ’Ã‚Â©servÃƒÆ’Ã‚Â©s.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+==================================================
+FICHIER : index.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foire Internationale des Collines ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â FIC 2026</title>
+  <meta name="description" content="La premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition de la Foire Internationale des Collines du 20 dÃƒÆ’Ã‚Â©cembre 2026 au 2 janvier 2027 ÃƒÆ’Ã‚Â  Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">ÃƒÆ’Ã¢â‚¬Â°dition</span><p>20 dÃƒÆ’Ã‚Â©cembre 2026 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-kicker">ÃƒÆ’Ã¢â‚¬Â°dition 2026</div>
+      <h1 class="hero-title">La richesse des Collines,<em>ÃƒÆ’Ã‚Â  portÃƒÆ’Ã‚Â©e de main.</em></h1>
+      <p class="hero-lead">La FIC est un espace de valorisation, de connexion et de projection pour le dÃƒÆ’Ã‚Â©partement des Collines. Exposer, dÃƒÆ’Ã‚Â©couvrir, ÃƒÆ’Ã‚Â©changer et entreprendre.</p>
+    </div>
+    
+    <div class="hero-bottom">
+      <div class="hero-dates">
+        <div>
+          <span class="date-label">Dates</span>
+          <span class="date-value">20 DÃƒÆ’Ã‚Â©c. 2026 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 02 Jan. 2027</span>
+        </div>
+        <div>
+          <span class="date-label">Lieu</span>
+          <span class="date-value">Place Egbakokou, Dassa-ZoumÃƒÆ’Ã‚Â¨</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="programme.html" class="btn btn-primary">DÃƒÆ’Ã‚Â©couvrir le programme</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">DÃƒÆ’Ã‚Â©couvrir</div>
+</section>
+
+<section class="video-section">
+  <div class="container">
+    <div class="video-card">
+      <div class="video-container">
+        <video src="assets/annonce.mp4" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="video-content">
+        <span class="annonce-badge">Annonce officielle</span>
+        <h2>La FIC se dÃƒÆ’Ã‚Â©voile.</h2>
+        <p>DÃƒÆ’Ã‚Â©couvrez l'ambition de la premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition de la Foire Internationale des Collines ÃƒÆ’Ã‚Â  travers cette vidÃƒÆ’Ã‚Â©o.</p>
+        <div class="annonce-meta">
+          <span>Une initiative locale</span>
+          <span>Un rayonnement international</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">La FIC</span>
+      <h2>Bien plus qu'une foire.</h2>
+      <p>Un espace de valorisation, de connexion et de projection pour le dÃƒÆ’Ã‚Â©partement des Collines. DÃƒÆ’Ã‚Â©couvrez notre mission et nos objectifs.</p>
+    </div>
+    <div class="grid-3 reveal">
+      <div class="card">
+        <div class="card-icon" data-icon="building"></div>
+        <h3>Exposer</h3>
+        <p>Offrir une vitrine aux produits, savoir-faire et entreprises du territoire.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" data-icon="search"></div>
+        <h3>DÃƒÆ’Ã‚Â©couvrir</h3>
+        <p>Faire connaÃƒÆ’Ã‚Â®tre la richesse culturelle, artisanale et touristique des Collines.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" data-icon="hands"></div>
+        <h3>ÃƒÆ’Ã¢â‚¬Â°changer</h3>
+        <p>CrÃƒÆ’Ã‚Â©er des espaces de dialogue entre producteurs, investisseurs et institutions.</p>
+      </div>
+    </div>
+    <div class="actions mt-8">
+      <a href="la-fic.html" class="btn btn-outline" style="color: var(--ink); border-color: var(--gray-300);">En savoir plus sur la FIC</a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-green">
+  <div class="container">
+    <div class="section-head center">
+      <span class="kicker">ActualitÃƒÆ’Ã‚Â©s</span>
+      <h2>La vie de la FIC.</h2>
+      <p>Suivez les prÃƒÆ’Ã‚Â©paratifs et les temps forts de la premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition.</p>
+    </div>
+    <div class="grid-2 reveal">
+      <article class="news-card">
+        <img src="assets/actualites/id1.jpg" alt="Formation numÃƒÆ’Ã‚Â©rique" class="news-card-single-img" loading="lazy">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Formation</span>
+          </div>
+          <h3 class="news-card-title">Les produits Made in Collines au cÃƒâ€¦Ã¢â‚¬Å“ur du numÃƒÆ’Ã‚Â©rique</h3>
+          <p class="news-card-text">Dans le cadre de ses initiatives, la FIC a organisÃƒÆ’Ã‚Â© une formation consacrÃƒÆ’Ã‚Â©e au packaging...</p>
+        </div>
+      </article>
+      <article class="news-card">
+        <img src="assets/actualites/al1.jpg" alt="Coulisses FIC" class="news-card-single-img" loading="lazy">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-card-date">Nov. 2026</span>
+            <span class="news-card-cat">Coulisses</span>
+          </div>
+          <h3 class="news-card-title">Les coulisses de la prÃƒÆ’Ã‚Â©paration</h3>
+          <p class="news-card-text">DÃƒÆ’Ã‚Â©couvrez en images les coulisses de la prÃƒÆ’Ã‚Â©paration de la premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition de la FIC...</p>
+        </div>
+      </article>
+    </div>
+    <div class="actions mt-8" style="justify-content: center;">
+      <a href="actualites.html" class="btn btn-primary">Toutes les actualitÃƒÆ’Ã‚Â©s</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Infos pratiques</span>
+      <h2>Nous rejoindre.</h2>
+      <p>La premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition de la FIC se tiendra ÃƒÆ’Ã‚Â  Dassa-ZoumÃƒÆ’Ã‚Â¨, au cÃƒâ€¦Ã¢â‚¬Å“ur du dÃƒÆ’Ã‚Â©partement des Collines.</p>
+    </div>
+    <div class="map-wrapper">
+      <iframe
+        src="https://www.google.com/maps?q=Q5GR%2BX8%20Dassa%2C%20Benin&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Carte Google Maps ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Place de l'ÃƒÆ’Ã‚Â©vÃƒÆ’Ã‚Â©nement, Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin">
+      </iframe>
+    </div>
+    <p class="map-link">
+      <a href="https://maps.app.goo.gl/V3D7FHFPjrDXNcE37" target="_blank" rel="noopener">
+        Ouvrir dans Google Maps ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢
+      </a>
+    </p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Rejoignez la dynamique FIC.</h2>
+    <p>Ensemble, faisons de cette premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition un succÃƒÆ’Ã‚Â¨s pour tout le territoire.</p>
+    <div class="actions">
+      <a href="contact.html" class="btn btn-primary">Devenir exposant</a>
+      <a href="contact.html" class="btn btn-outline">Nous contacter</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dÃƒÆ’Ã‚Â©diÃƒÆ’Ã‚Â©e ÃƒÆ’Ã‚Â  la valorisation des richesses, savoir-faire et opportunitÃƒÆ’Ã‚Â©s du dÃƒÆ’Ã‚Â©partement des Collines. PremiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition du 20 dÃƒÆ’Ã‚Â©cembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Ãƒâ€šÃ‚Â© 2026 Foire Internationale des Collines. Tous droits rÃƒÆ’Ã‚Â©servÃƒÆ’Ã‚Â©s.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+==================================================
+FICHIER : la-fic.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La FIC ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Foire Internationale des Collines</title>
+  <meta name="description" content="Mission, valeurs et objectifs de la Foire Internationale des Collines.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">ÃƒÆ’Ã¢â‚¬Â°dition</span><p>20 dÃƒÆ’Ã‚Â©cembre 2026 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank">Facebook</a><a href="#">Instagram</a><a href="https://www.linkedin.com/in/yannick-clovis-otchoumare-06629139a" target="_blank" rel="noopener">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="kicker">La FIC</span>
+      <h1>Un rendez-vous, une dynamique de territoire.</h1>
+      <p>La FIC n'est pas une simple foire. C'est un espace de valorisation, de connexion et de projection pour le dÃƒÆ’Ã‚Â©partement des Collines.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Notre mission</span>
+      <h2>Bien plus que des stands.</h2>
+      <p>RÃƒÆ’Ã‚Â©unir diffÃƒÆ’Ã‚Â©rents acteurs autour d'une mÃƒÆ’Ã‚Âªme dynamique : exposer, dÃƒÆ’Ã‚Â©couvrir, ÃƒÆ’Ã‚Â©changer, connecter, entreprendre.</p>
+    </div>
+    <div class="grid-3 reveal">
+      <div class="card"><div class="card-icon" data-icon="building"></div><h3>Exposer</h3><p>Offrir une vitrine aux produits, savoir-faire et entreprises du territoire.</p></div>
+      <div class="card"><div class="card-icon" data-icon="search"></div><h3>DÃƒÆ’Ã‚Â©couvrir</h3><p>Faire connaÃƒÆ’Ã‚Â®tre la richesse culturelle, artisanale et touristique des Collines.</p></div>
+      <div class="card"><div class="card-icon" data-icon="hands"></div><h3>ÃƒÆ’Ã¢â‚¬Â°changer</h3><p>CrÃƒÆ’Ã‚Â©er des espaces de dialogue entre producteurs, investisseurs et institutions.</p></div>
+      <div class="card"><div class="card-icon" data-icon="link"></div><h3>Connecter</h3><p>Relier les talents locaux aux opportunitÃƒÆ’Ã‚Â©s nationales et internationales.</p></div>
+      <div class="card"><div class="card-icon" data-icon="rocket"></div><h3>Entreprendre</h3><p>Transformer les potentialitÃƒÆ’Ã‚Â©s locales en activitÃƒÆ’Ã‚Â©s ÃƒÆ’Ã‚Â©conomiques durables.</p></div>
+      <div class="card"><div class="card-icon" data-icon="globe"></div><h3>Rayonner</h3><p>Faire briller les Collines au-delÃƒÆ’Ã‚Â  de ses frontiÃƒÆ’Ã‚Â¨res.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Nos valeurs</span>
+      <h2>Ce qui nous guide.</h2>
+    </div>
+    <div class="grid-2 reveal">
+      <div class="card"><div class="card-icon" data-icon="lightbulb"></div><h3>Valorisation</h3><p>Rendre visibles les richesses et savoir-faire du territoire.</p></div>
+      <div class="card"><div class="card-icon" data-icon="hands"></div><h3>SolidaritÃƒÆ’Ã‚Â©</h3><p>Faire rÃƒÆ’Ã‚Â©ussir ensemble les acteurs locaux.</p></div>
+      <div class="card"><div class="card-icon" data-icon="leaf"></div><h3>DurabilitÃƒÆ’Ã‚Â©</h3><p>Inscrire les initiatives dans le temps long.</p></div>
+      <div class="card"><div class="card-icon" data-icon="palette"></div><h3>FiertÃƒÆ’Ã‚Â© locale</h3><p>Valoriser le Made in Collines dans toute sa diversitÃƒÆ’Ã‚Â©.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Nos objectifs</span>
+      <h2>Ce que la FIC veut accomplir.</h2>
+    </div>
+    <div class="grid-objectifs reveal">
+      <article class="card objectif">
+        <div class="card-img"><img src="assets/objectifs/rendre-visible.png" alt="Rendre visible" loading="lazy"></div>
+        <div class="card-body">
+          <h3>Rendre visible</h3>
+          <p>Faire connaÃƒÆ’Ã‚Â®tre les produits, talents et entreprises du territoire ÃƒÆ’Ã‚Â  un large public.</p>
+        </div>
+      </article>
+      <article class="card objectif">
+        <div class="card-img"><img src="assets/objectifs/creer-connexions.png" alt="CrÃƒÆ’Ã‚Â©er des connexions" loading="lazy"></div>
+        <div class="card-body">
+          <h3>CrÃƒÆ’Ã‚Â©er des connexions</h3>
+          <p>Faciliter les rencontres entre producteurs, acheteurs, investisseurs et partenaires.</p>
+        </div>
+      </article>
+      <article class="card objectif">
+        <div class="card-img"><img src="assets/objectifs/economie-locale.png" alt="Stimuler l'ÃƒÆ’Ã‚Â©conomie locale" loading="lazy"></div>
+        <div class="card-body">
+          <h3>Stimuler l'ÃƒÆ’Ã‚Â©conomie locale</h3>
+          <p>GÃƒÆ’Ã‚Â©nÃƒÆ’Ã‚Â©rer des retombÃƒÆ’Ã‚Â©es ÃƒÆ’Ã‚Â©conomiques concrÃƒÆ’Ã‚Â¨tes pour les acteurs du dÃƒÆ’Ã‚Â©partement.</p>
+        </div>
+      </article>
+      <article class="card objectif">
+        <div class="card-img"><img src="assets/objectifs/promouvoir-tourisme.png" alt="Promouvoir le tourisme" loading="lazy"></div>
+        <div class="card-body">
+          <h3>Promouvoir le tourisme</h3>
+          <p>Faire des Collines une destination attractive et authentique.</p>
+        </div>
+      </article>
+      <article class="card objectif">
+        <div class="card-img"><img src="assets/objectifs/renforcer-capacites.png" alt="Renforcer les capacitÃƒÆ’Ã‚Â©s" loading="lazy"></div>
+        <div class="card-body">
+          <h3>Renforcer les capacitÃƒÆ’Ã‚Â©s</h3>
+          <p>Offrir des espaces de formation et d'ÃƒÆ’Ã‚Â©change aux entrepreneurs locaux.</p>
+        </div>
+      </article>
+      <article class="card objectif">
+        <div class="card-img"><img src="assets/objectifs/perenniser-dynamique.png" alt="PÃƒÆ’Ã‚Â©renniser la dynamique" loading="lazy"></div>
+        <div class="card-body">
+          <h3>PÃƒÆ’Ã‚Â©renniser la dynamique</h3>
+          <p>Installer la FIC comme un rendez-vous annuel incontournable.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Nous trouver</span>
+      <h2>Place Egbakokou, Dassa-ZoumÃƒÆ’Ã‚Â¨.</h2>
+      <p>Le cÃƒâ€¦Ã¢â‚¬Å“ur de la FIC, au centre du dÃƒÆ’Ã‚Â©partement des Collines.</p>
+    </div>
+    <div class="map-wrapper">
+      <iframe src="https://www.google.com/maps?q=Q5GR%2BX8%20Dassa%2C%20Benin&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Carte Google Maps"></iframe>
+    </div>
+    <p class="map-link">
+      <a href="https://maps.app.goo.gl/V3D7FHFPjrDXNcE37" target="_blank" rel="noopener">Ouvrir dans Google Maps ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢</a>
+    </p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Rejoignez la dynamique FIC.</h2>
+    <p>Ensemble, faisons de cette premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition un succÃƒÆ’Ã‚Â¨s pour tout le territoire.</p>
+    <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dÃƒÆ’Ã‚Â©diÃƒÆ’Ã‚Â©e ÃƒÆ’Ã‚Â  la valorisation des richesses, savoir-faire et opportunitÃƒÆ’Ã‚Â©s du dÃƒÆ’Ã‚Â©partement des Collines. PremiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition du 20 dÃƒÆ’Ã‚Â©cembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Ãƒâ€šÃ‚Â© 2026 Foire Internationale des Collines. Tous droits rÃƒÆ’Ã‚Â©servÃƒÆ’Ã‚Â©s.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+==================================================
+FICHIER : programme.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programme ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â FIC 2026</title>
+  <meta name="description" content="DÃƒÆ’Ã‚Â©couvrez le programme officiel de la Foire Internationale des Collines.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">ÃƒÆ’Ã¢â‚¬Â°dition</span><p>20 dÃƒÆ’Ã‚Â©cembre 2026 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank">Facebook</a><a href="#">Instagram</a><a href="https://www.linkedin.com/in/yannick-clovis-otchoumare-06629139a" target="_blank" rel="noopener">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Programme</span>
+    <h1>Le rendez-vous des Collines.</h1>
+    <p>DÃƒÆ’Ã‚Â©couvrez les temps forts de la premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition de la FIC. Des rencontres, des expositions, des ateliers et des moments de partage.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Au programme</span>
+      <h2>Deux semaines de cÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©bration.</h2>
+      <p>Un programme riche pour valoriser les talents, les produits et le patrimoine de notre territoire.</p>
+    </div>
+
+    <div class="prog-list reveal">
+      
+      <!-- Jour 1 -->
+      <div class="prog-item">
+        <div class="prog-day">Dim. 20 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>CÃƒÆ’Ã‚Â©rÃƒÆ’Ã‚Â©monie d'ouverture officielle</h4>
+          <p>Inauguration de la Foire en prÃƒÆ’Ã‚Â©sence des autoritÃƒÆ’Ã‚Â©s locales et nationales. Visite des stands, prestations artistiques et lancement des festivitÃƒÆ’Ã‚Â©s.</p>
+        </div>
+      </div>
+
+      <!-- Jour 2 -->
+      <div class="prog-item">
+        <div class="prog-day">Lun. 21 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>JournÃƒÆ’Ã‚Â©e de l'Agro-transformation</h4>
+          <p>Ateliers pratiques sur le packaging et la transformation des produits locaux. Rencontres B2B entre producteurs et acheteurs.</p>
+        </div>
+      </div>
+
+      <!-- Jour 3 -->
+      <div class="prog-item">
+        <div class="prog-day">Mar. 22 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>Le Made in Collines ÃƒÆ’Ã‚Â  l'honneur</h4>
+          <p>Exposition dÃƒÆ’Ã‚Â©diÃƒÆ’Ã‚Â©e aux artisans et crÃƒÆ’Ã‚Â©ateurs locaux. DÃƒÆ’Ã‚Â©filÃƒÆ’Ã‚Â© de mode mettant en valeur le textile et les crÃƒÆ’Ã‚Â©ations artisanales.</p>
+        </div>
+      </div>
+
+      <!-- Jour 4 -->
+      <div class="prog-item">
+        <div class="prog-day">Mer. 23 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>ConfÃƒÆ’Ã‚Â©rence : Le numÃƒÆ’Ã‚Â©rique au service du territoire</h4>
+          <p>Table ronde avec des experts sur la digitalisation des entreprises locales, le e-commerce et la visibilitÃƒÆ’Ã‚Â© des produits sur internet.</p>
+        </div>
+      </div>
+
+      <!-- Jour 5 -->
+      <div class="prog-item">
+        <div class="prog-day">Jeu. 24 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>Village gastronomique et dÃƒÆ’Ã‚Â©gustations</h4>
+          <p>DÃƒÆ’Ã‚Â©couverte des plats typiques des Collines. Ateliers de cuisine et dÃƒÆ’Ã‚Â©gustations animÃƒÆ’Ã‚Â©es par des chefs locaux.</p>
+        </div>
+      </div>
+
+      <!-- Jour 6 -->
+      <div class="prog-item">
+        <div class="prog-day">Ven. 25 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>JournÃƒÆ’Ã‚Â©e familiale et culturelle</h4>
+          <p>ActivitÃƒÆ’Ã‚Â©s pour les enfants, contes, danses traditionnelles et spectacles cÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©brant la richesse culturelle du dÃƒÆ’Ã‚Â©partement.</p>
+        </div>
+      </div>
+
+      <!-- Jour 7 -->
+      <div class="prog-item">
+        <div class="prog-day">Sam. 26 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>Forum des investisseurs et partenaires</h4>
+          <p>PrÃƒÆ’Ã‚Â©sentation des opportunitÃƒÆ’Ã‚Â©s d'investissement dans les Collines. Signature de partenariats et ÃƒÆ’Ã‚Â©changes avec les institutions.</p>
+        </div>
+      </div>
+
+      <!-- Jour 8 -->
+      <div class="prog-item">
+        <div class="prog-day">Dim. 27 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>JournÃƒÆ’Ã‚Â©e Tourisme et Patrimoine</h4>
+          <p>Visites guidÃƒÆ’Ã‚Â©es des collines sacrÃƒÆ’Ã‚Â©es, du sanctuaire marial et des sites royaux. DÃƒÆ’Ã‚Â©couverte de l'histoire de Dassa-ZoumÃƒÆ’Ã‚Â¨.</p>
+        </div>
+      </div>
+
+      <!-- Jour 9 -->
+      <div class="prog-item">
+        <div class="prog-day">Lun. 28 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>Ateliers de formation (Marketing & Design)</h4>
+          <p>Sessions de renforcement de capacitÃƒÆ’Ã‚Â©s pour les entrepreneurs et artisans sur la crÃƒÆ’Ã‚Â©ation de marque et la communication visuelle.</p>
+        </div>
+      </div>
+
+      <!-- Jour 10 -->
+      <div class="prog-item">
+        <div class="prog-day">Mar. 29 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>Nuit des Talents des Collines</h4>
+          <p>Grande soirÃƒÆ’Ã‚Â©e de gala pour cÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©brer les talents musicaux, artistiques et entrepreneuriaux du territoire. Remise de prix.</p>
+        </div>
+      </div>
+
+      <!-- Jour 11 -->
+      <div class="prog-item">
+        <div class="prog-day">Mer. 30 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>JournÃƒÆ’Ã‚Â©e sportive et jeux traditionnels</h4>
+          <p>Tournois, animations sportives et dÃƒÆ’Ã‚Â©couverte des jeux traditionnels des Collines pour petits et grands.</p>
+        </div>
+      </div>
+
+      <!-- Jour 12 -->
+      <div class="prog-item">
+        <div class="prog-day">Jeu. 31 DÃƒÆ’Ã‚Â©c. 2026</div>
+        <div class="prog-body">
+          <h4>RÃƒÆ’Ã‚Â©veillon de la FIC</h4>
+          <p>CÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©bration de la Saint-Sylvestre sur le site de la foire. Grand concert, feu d'artifice et ambiance festive jusqu'au bout de la nuit.</p>
+        </div>
+      </div>
+
+      <!-- Jour 13-14 -->
+      <div class="prog-item">
+        <div class="prog-day">Ven. 1er & Sam. 2 Jan. 2027</div>
+        <div class="prog-body">
+          <h4>ClÃƒÆ’Ã‚Â´ture de la premiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition</h4>
+          <p>Bilan de la FIC, remerciements aux exposants et partenaires, et cÃƒÆ’Ã‚Â©rÃƒÆ’Ã‚Â©monie de clÃƒÆ’Ã‚Â´ture en musique. Rendez-vous pour la prochaine ÃƒÆ’Ã‚Â©dition !</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>PrÃƒÆ’Ã‚Âªt ÃƒÆ’Ã‚Â  vivre l'expÃƒÆ’Ã‚Â©rience FIC ?</h2>
+    <p>RÃƒÆ’Ã‚Â©servez vos dates dÃƒÆ’Ã‚Â¨s maintenant et venez nombreux cÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©brer la richesse de notre territoire.</p>
+    <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dÃƒÆ’Ã‚Â©diÃƒÆ’Ã‚Â©e ÃƒÆ’Ã‚Â  la valorisation des richesses, savoir-faire et opportunitÃƒÆ’Ã‚Â©s du dÃƒÆ’Ã‚Â©partement des Collines. PremiÃƒÆ’Ã‚Â¨re ÃƒÆ’Ã‚Â©dition du 20 dÃƒÆ’Ã‚Â©cembre 2026 au 2 janvier 2027.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="la-fic.html">La FIC</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="exposants.html">Exposants</a></li>
+          <li><a href="collines.html">Les Collines</a></li>
+          <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Place Egbakokou</li>
+          <li>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</li>
+          <li><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a></li>
+          <li><a href="tel:+2290156282878">+229 01 56 28 28 78</a></li>
+          <li><a href="contact.html">Formulaire de contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Ãƒâ€šÃ‚Â© 2026 Foire Internationale des Collines. Tous droits rÃƒÆ’Ã‚Â©servÃƒÆ’Ã‚Â©s.</span>
+      <span class="foot-visiteurs">Visiteurs : <strong id="compteur-visiteurs">ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â</strong></span>
+      <div class="foot-hashtags"><span>#FIC2026</span><span>#MadeInCollines</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+==================================================
+FICHIER : sponsor.html
+==================================================
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devenir Sponsor ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â FIC 2026</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .sponsor-form { max-width: 800px; margin: 0 auto; background: var(--white); padding: 48px; border: 1px solid var(--gray-200); border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+    .sponsor-form h2 { text-align: center; margin-bottom: 32px; color: var(--green); font-weight: 600; font-size: 1.5rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+    .sponsor-form .field { margin-bottom: 24px; }
+    .sponsor-form .field label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; }
+    .sponsor-form .field input, .sponsor-form .field select, .sponsor-form .field textarea { width: 100%; padding: 14px; border: 1px solid var(--gray-300); border-radius: 4px; font-family: var(--font); font-size: 1rem; }
+    .sponsor-form .field textarea { min-height: 150px; resize: vertical; }
+    .sponsor-form .btn { width: 100%; justify-content: center; font-size: 0.9rem; padding: 18px; }
+    .alert-success { background: #d4edda; color: #155724; padding: 15px; border-radius: 4px; margin-bottom: 20px; text-align: center; font-weight: bold; border: 1px solid #c3e6cb; }
+    @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } .sponsor-form { padding: 24px; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+      <span class="logo-text">Foire<br>Internationale<br>des Collines</span>
+    </a>
+    <div class="header-actions">
+      <a href="contact.html" class="header-cta">Contact</a>
+      <button class="menu-btn" id="menuBtn"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-inner">
+    <div class="menu-top">
+      <a href="index.html" class="menu-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <span>Foire<br>Internationale<br>des Collines</span>
+      </a>
+      <button class="menu-close" id="menuClose">Fermer</button>
+    </div>
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="la-fic.html">La FIC</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="exposants.html">Exposants</a></li>
+        <li><a href="collines.html">Les Collines</a></li>
+        <li><a href="actualites.html">ActualitÃƒÆ’Ã‚Â©s</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <div class="menu-col"><span class="menu-label">ÃƒÆ’Ã¢â‚¬Â°dition</span><p>20 dÃƒÆ’Ã‚Â©cembre 2026 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â<br>2 janvier 2027</p></div>
+      <div class="menu-col"><span class="menu-label">Lieu</span><p>Place Egbakokou<br>Dassa-ZoumÃƒÆ’Ã‚Â¨, BÃƒÆ’Ã‚Â©nin</p></div>
+      <div class="menu-col"><span class="menu-label">Contact</span><p><a href="mailto:fic.collines@gmail.com">fic.collines@gmail.com</a><br><a href="tel:+2290156282878">+229 01 56 28 28 78</a></p></div>
+      <div class="menu-col"><span class="menu-label">Suivre</span><p class="menu-social"><a href="https://www.facebook.com/FoireInternationaledescollines" target="_blank">Facebook</a><a href="#">Instagram</a><a href="https://www.linkedin.com/in/yannick-clovis-otchoumare-06629139a" target="_blank" rel="noopener">LinkedIn</a></p></div>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Partenariat</span>
+    <h1>Devenir Sponsor de la FIC.</h1>
+    <p>Associez votre entreprise ÃƒÆ’Ã‚Â  un ÃƒÆ’Ã‚Â©vÃƒÆ’Ã‚Â©nement majeur et soutenez le dÃƒÆ’Ã‚Â©veloppement du territoire des Collines.</p>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    
+    <div id="success-message" class="alert-success" style="display:none;">
+      Votre demande a bien ÃƒÆ’Ã‚Â©tÃƒÆ’Ã‚Â© enregistrÃƒÆ’Ã‚Â©e. L'ÃƒÆ’Ã‚Â©quipe FIC vous contactera trÃƒÆ’Ã‚Â¨s prochainement.
+    </div>
+
+    <form class="sponsor-form" action="traitement-sponsor.php" method="POST">
+      <h2>Formulaire de demande de sponsoring</h2>
+      
+      <div class="form-row">
+        <div class="field">
+          <label for="entreprise">Nom de l'entreprise / Organisation *</label>
+          <input type="text" id="entreprise" name="entreprise" required placeholder="Ex: Entreprise ABC">
+        </div>
+        <div class="field">
+          <label for="contact">Nom du responsable *</label>
+          <input type="text" id="contact" name="contact" required placeholder="Ex: Jean Dupont">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="email">Email professionnel *</label>
+          <input type="email" id="email" name="email" required placeholder="contact@entreprise.com">
+        </div>
+        <div class="field">
+          <label for="telephone">TÃƒÆ’Ã‚Â©lÃƒÆ’Ã‚Â©phone *</label>
+          <input type="tel" id="telephone" name="telephone" required placeholder="+229 XX XX XX XX">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="type">Type de sponsoring souhaitÃƒÆ’Ã‚Â© *</label>
+        <select id="type" name="type" required>
+          <option value="">SÃƒÆ’Ã‚Â©lectionnez une option</option>
+          <option value="Financier">Financier</option>
+          <option value="MatÃƒÆ’Ã‚Â©riel / Logistique">MatÃƒÆ’Ã‚Â©riel / Logistique</option>
+          <option value="MÃƒÆ’Ã‚Â©dia / Communication">MÃƒÆ’Ã‚Â©dia / Communication</option>
+          <option value="Autre">Autre</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">DÃƒÆ’Ã‚Â©tails de votre proposition / Message *</label>
+        <textarea id="message" name="message" required placeholder="DÃƒÆ’Ã‚Â©crivez votre offre de sponsoring..."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img loading="lazy" decoding="async" src="assets/logo.png" alt="Logo FIC" class="logo-img">
+        <h4>Foire Internationale des Collines</h4>
+        <p>Une initiative dÃƒÆ’Ã‚Â©diÃƒÆ’Ã‚Â©e ÃƒÆ’Ã‚Â  la valorisation des richesses des Collines.</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Ãƒâ€šÃ‚Â© 2026 FIC. Tous droits rÃƒÆ’Ã‚Â©servÃƒÆ’Ã‚Â©s.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="assets/script.js"></script>
+<script>
+  if (window.location.search.includes('success=1')) {
+    document.getElementById('success-message').style.display = 'block';
+    window.scrollTo(0, document.querySelector('.page-hero').offsetHeight);
+  }
+</script>
+</body>
+</html>
