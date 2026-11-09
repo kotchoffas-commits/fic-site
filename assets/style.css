@@ -933,3 +933,24 @@ h1, h2, h3, h4, p, a, span {
 .section-head > *, .grid-2 > *, .grid-3 > * {
   min-width: 0; 
 }
+/* ============================================================
+   CORRECTIF : Texte lisible dans les cartes d'actualités
+   Même si la section parente a un fond vert.
+   ============================================================ */
+.bg-green .news-card h3,
+.bg-green .news-card .news-card-title {
+  color: var(--ink);
+}
+.bg-green .news-card p,
+.bg-green .news-card .news-card-text {
+  color: var(--gray-700);
+}
+/* Forcer le texte des actualités à être visible sur fond vert */
+.bg-green .news-card h3,
+.bg-green .news-card .news-card-title {
+  color: var(--ink) !important;
+}
+.bg-green .news-card p,
+.bg-green .news-card .news-card-text {
+  color: var(--gray-700) !important;
+}
