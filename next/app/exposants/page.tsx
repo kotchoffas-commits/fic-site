@@ -1,13 +1,14 @@
-import PageHero from "@/components/sections/PageHero";
+﻿import PageHero from "@/components/sections/PageHero";
 import Link from "next/link";
+import { Wheat, Shirt, Hammer, Droplets, Palette, UtensilsCrossed } from "lucide-react";
 
 const EXPO = [
-  { cat: "Agro-transformation", name: "Coopérative Agricole des Collines", desc: "Produits transformés du terroir : farines, jus, épices.", icon: "🌾", color: "from-green/20 to-gold/20" },
-  { cat: "Artisanat", name: "Atelier Textile Dassa", desc: "Tissus traditionnels, pagne et créations locales.", icon: "👕", color: "from-gold/20 to-green/20" },
-  { cat: "Artisanat d'art", name: "Sculpteurs de Glazoué", desc: "Objets d'art, sculptures et créations bois.", icon: "🔨", color: "from-green/10 to-gold/30" },
-  { cat: "Produits naturels", name: "Miel des Collines", desc: "Miel naturel et produits dérivés.", icon: "🍯", color: "from-gold/30 to-green/10" },
-  { cat: "Mode & design", name: "Créations Savannah", desc: "Prêt-à-porter et accessoires inspirés du territoire.", icon: "🎨", color: "from-green/20 to-cream" },
-  { cat: "Gastronomie", name: "Saveurs de Dassa", desc: "Plats, condiments et spécialités locales.", icon: "🍴", color: "from-gold/20 to-cream" },
+  { cat: "Agro-transformation", name: "Coopérative Agricole des Collines", desc: "Produits transformés du terroir : farines, jus, épices.", Icon: Wheat, color: "from-green/20 to-gold/20" },
+  { cat: "Artisanat", name: "Atelier Textile Dassa", desc: "Tissus traditionnels, pagne et créations locales.", Icon: Shirt, color: "from-gold/20 to-green/20" },
+  { cat: "Artisanat d'art", name: "Sculpteurs de Glazoué", desc: "Objets d'art, sculptures et créations bois.", Icon: Hammer, color: "from-green/10 to-gold/30" },
+  { cat: "Produits naturels", name: "Miel des Collines", desc: "Miel naturel et produits dérivés.", Icon: Droplets, color: "from-gold/30 to-green/10" },
+  { cat: "Mode & design", name: "Créations Savannah", desc: "Prêt-à-porter et accessoires inspirés du territoire.", Icon: Palette, color: "from-green/20 to-cream" },
+  { cat: "Gastronomie", name: "Saveurs de Dassa", desc: "Plats, condiments et spécialités locales.", Icon: UtensilsCrossed, color: "from-gold/20 to-cream" },
 ];
 
 const STEPS = [
@@ -41,8 +42,8 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {EXPO.map((e) => (
               <div key={e.name} className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-gray-100">
-                <div className={`relative aspect-[4/3] bg-gradient-to-br ${e.color} flex items-center justify-center`}>
-                  <span className="text-6xl group-hover:scale-110 transition duration-700">{e.icon}</span>
+                <div className={`relative aspect-[4/3] bg-gradient-to-br ${e.color} flex items-center justify-center text-green-dark`}>
+                  <e.Icon className="w-16 h-16 group-hover:scale-110 transition duration-700" strokeWidth={1.25} />
                 </div>
                 <div className="p-6">
                   <small className="block text-xs uppercase tracking-wider text-gold font-semibold mb-2">{e.cat}</small>

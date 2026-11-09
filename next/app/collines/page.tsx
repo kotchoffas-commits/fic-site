@@ -1,23 +1,24 @@
-import PageHero from "@/components/sections/PageHero";
+﻿import PageHero from "@/components/sections/PageHero";
 import Link from "next/link";
 import Image from "next/image";
+import { MapPin, Store, Crown, Wheat, Droplets, Mountain, Shirt, Hammer, UtensilsCrossed, ShoppingBag } from "lucide-react";
 
 const TERRITOIRE = [
-  { t: "Dassa-Zoumè", d: "Capitale des Collines, ville-carrefour et terre de pèlerinage.", icon: "📍" },
-  { t: "Glazoué", d: "Commune agricole, marché et carrefour des échanges.", icon: "🌿" },
-  { t: "Savalou", d: "Collines, palais royaux et tradition vivante.", icon: "👑" },
-  { t: "Savè", d: "Terres agricoles et production vivrière.", icon: "🌾" },
-  { t: "Bantè", d: "Terroir de produits naturels et de traditions.", icon: "💧" },
-  { t: "Ouèssè", d: "Élevage, agriculture et paysages de savane.", icon: "⛰" },
+  { t: "Dassa-Zoumè", d: "Capitale des Collines, ville-carrefour et terre de pèlerinage.", Icon: MapPin },
+  { t: "Glazoué", d: "Commune agricole, marché et carrefour des échanges.", Icon: Store },
+  { t: "Savalou", d: "Collines, palais royaux et tradition vivante.", Icon: Crown },
+  { t: "Savè", d: "Terres agricoles et production vivrière.", Icon: Wheat },
+  { t: "Bantè", d: "Terroir de produits naturels et de traditions.", Icon: Droplets },
+  { t: "Ouèssè", d: "Élevage, agriculture et paysages de savane.", Icon: Mountain },
 ];
 
 const MADE_IN = [
-  { t: "Agro-transformation", d: "Farines, jus, épices, produits dérivés du terroir.", icon: "🌾" },
-  { t: "Textile", d: "Tissus, pagnes et créations artisanales.", icon: "👕" },
-  { t: "Artisanat d'art", d: "Sculptures, objets bois et créations traditionnelles.", icon: "🔨" },
-  { t: "Produits naturels", d: "Miel, beurre de karité, plantes médicinales.", icon: "🍯" },
-  { t: "Gastronomie", d: "Plats et condiments typiques de la région.", icon: "🍴" },
-  { t: "Maroquinerie", d: "Sacs, ceintures et accessoires en cuir.", icon: "👜" },
+  { t: "Agro-transformation", d: "Farines, jus, épices, produits dérivés du terroir.", Icon: Wheat },
+  { t: "Textile", d: "Tissus, pagnes et créations artisanales.", Icon: Shirt },
+  { t: "Artisanat d'art", d: "Sculptures, objets bois et créations traditionnelles.", Icon: Hammer },
+  { t: "Produits naturels", d: "Miel, beurre de karité, plantes médicinales.", Icon: Droplets },
+  { t: "Gastronomie", d: "Plats et condiments typiques de la région.", Icon: UtensilsCrossed },
+  { t: "Maroquinerie", d: "Sacs, ceintures et accessoires en cuir.", Icon: ShoppingBag },
 ];
 
 const TOURISME = [
@@ -54,7 +55,9 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {TERRITOIRE.map((c) => (
               <div key={c.t} className="bg-white rounded-3xl p-8 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
-                <div className="w-12 h-12 rounded-full bg-green/10 text-green flex items-center justify-center mb-4 text-xl">{c.icon}</div>
+                <div className="w-12 h-12 rounded-full bg-green/10 text-green flex items-center justify-center mb-4">
+                  <c.Icon className="w-6 h-6" strokeWidth={1.75} />
+                </div>
                 <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
                 <p className="text-gray-700">{c.d}</p>
               </div>
@@ -72,7 +75,9 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {MADE_IN.map((c) => (
               <div key={c.t} className="bg-cream rounded-3xl p-8 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
-                <div className="w-12 h-12 rounded-full bg-gold/15 text-gold flex items-center justify-center mb-4 text-xl">{c.icon}</div>
+                <div className="w-12 h-12 rounded-full bg-gold/15 text-gold flex items-center justify-center mb-4">
+                  <c.Icon className="w-6 h-6" strokeWidth={1.75} />
+                </div>
                 <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
                 <p className="text-gray-700">{c.d}</p>
               </div>

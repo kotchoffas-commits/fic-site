@@ -1,20 +1,21 @@
-import PageHero from "@/components/sections/PageHero";
+﻿import PageHero from "@/components/sections/PageHero";
 import ProgrammeList from "@/components/sections/ProgrammeList";
 import Link from "next/link";
+import { Briefcase, Wheat, Mountain, Palette, Hammer, Handshake, Music, UtensilsCrossed, Shirt } from "lucide-react";
 
 const CONFERENCES = [
-  { t: "Entrepreneuriat des jeunes", d: "Transformer les idées en entreprises viables dans les Collines.", icon: "💼" },
-  { t: "Filières agricoles", d: "Valorisation locale, transformation et accès aux marchés.", icon: "🌾" },
-  { t: "Tourisme durable", d: "Faire des Collines une destination authentique et attractive.", icon: "⛰" },
-  { t: "Culture & patrimoine", d: "Le patrimoine comme levier de développement territorial.", icon: "🎨" },
-  { t: "Artisanat & savoir-faire", d: "Structurer et valoriser les métiers d'art locaux.", icon: "🔨" },
-  { t: "Partenariats & financement", d: "Rencontrer les institutions et bailleurs pour financer les projets.", icon: "🤝" },
+  { t: "Entrepreneuriat des jeunes", d: "Transformer les idées en entreprises viables dans les Collines.", Icon: Briefcase },
+  { t: "Filières agricoles", d: "Valorisation locale, transformation et accès aux marchés.", Icon: Wheat },
+  { t: "Tourisme durable", d: "Faire des Collines une destination authentique et attractive.", Icon: Mountain },
+  { t: "Culture & patrimoine", d: "Le patrimoine comme levier de développement territorial.", Icon: Palette },
+  { t: "Artisanat & savoir-faire", d: "Structurer et valoriser les métiers d'art locaux.", Icon: Hammer },
+  { t: "Partenariats & financement", d: "Rencontrer les institutions et bailleurs pour financer les projets.", Icon: Handshake },
 ];
 
 const ANIMATIONS = [
-  { t: "Danses & musique", d: "Groupes traditionnels et artistes locaux chaque soir.", icon: "🥁" },
-  { t: "Gastronomie", d: "Découverte des plats et produits typiques des Collines.", icon: "🍴" },
-  { t: "Défilés & mode", d: "Mise en valeur des créations et tissus locaux.", icon: "👕" },
+  { t: "Danses & musique", d: "Groupes traditionnels et artistes locaux chaque soir.", Icon: Music },
+  { t: "Gastronomie", d: "Découverte des plats et produits typiques des Collines.", Icon: UtensilsCrossed },
+  { t: "Défilés & mode", d: "Mise en valeur des créations et tissus locaux.", Icon: Shirt },
 ];
 
 export const metadata = {
@@ -51,7 +52,9 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {CONFERENCES.map((c) => (
               <div key={c.t} className="bg-cream rounded-3xl p-8 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
-                <div className="w-12 h-12 rounded-full bg-green/10 text-green flex items-center justify-center mb-4 text-xl">{c.icon}</div>
+                <div className="w-12 h-12 rounded-full bg-green/10 text-green flex items-center justify-center mb-4">
+                  <c.Icon className="w-6 h-6" strokeWidth={1.75} />
+                </div>
                 <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
                 <p className="text-gray-700">{c.d}</p>
               </div>
@@ -69,7 +72,9 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {ANIMATIONS.map((c) => (
               <div key={c.t} className="bg-white rounded-3xl p-8 border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
-                <div className="w-12 h-12 rounded-full bg-gold/15 text-gold flex items-center justify-center mb-4 text-xl">{c.icon}</div>
+                <div className="w-12 h-12 rounded-full bg-gold/15 text-gold flex items-center justify-center mb-4">
+                  <c.Icon className="w-6 h-6" strokeWidth={1.75} />
+                </div>
                 <h3 className="font-serif text-xl font-bold mb-2">{c.t}</h3>
                 <p className="text-gray-700">{c.d}</p>
               </div>
