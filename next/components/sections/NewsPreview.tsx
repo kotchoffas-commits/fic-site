@@ -14,12 +14,12 @@ const ITEMS: NewsItem[] = [
   {
     type: "album",
     album: [
-      "/assets/actualites/al1.jpg",
-      "/assets/actualites/al2.jpg",
-      "/assets/actualites/al3.jpg",
-      "/assets/actualites/al4.jpg",
-      "/assets/actualites/al5.jpg",
-      "/assets/actualites/al6.jpg",
+      "/assets/actualites/Al1.jpg",
+      "/assets/actualites/Al2.jpg",
+      "/assets/actualites/Al3.jpg",
+      "/assets/actualites/Al4.jpg",
+      "/assets/actualites/Al5.jpg",
+      "/assets/actualites/Al6.jpg",
     ],
     date: "Nov. 2026",
     cat: "Coulisses",
