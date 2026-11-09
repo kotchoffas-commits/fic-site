@@ -1,5 +1,6 @@
 ﻿import Hero from "@/components/sections/Hero";
 import VideoSection from "@/components/sections/VideoSection";
+import NewsPreview from "@/components/sections/NewsPreview";
 import Countdown from "@/components/sections/Countdown";
 import InfoCards from "@/components/sections/InfoCards";
 import ConvictionSection from "@/components/sections/ConvictionSection";
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Hero />
       <VideoSection />
+      <NewsPreview />
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
