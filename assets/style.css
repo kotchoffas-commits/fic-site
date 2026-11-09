@@ -919,3 +919,17 @@ footer { background: var(--green-dark); color: rgba(var(--white-rgb), .7); paddi
 }
 .map-link a:hover { color: var(--gold-dark); text-decoration: underline; }
 @media (max-width: 600px) { .map-wrapper { aspect-ratio: 4 / 3; } }
+/* ============================================================
+   CORRECTIFS D'ALIGNEMENT ET DE DÉBORDEMENT
+   Empêche les textes longs de casser la mise en page
+   ============================================================ */
+h1, h2, h3, h4, p, a, span {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Force les éléments de grille et flexbox à ne pas déborder */
+.hero-inner > *, .hero-bottom > *, 
+.section-head > *, .grid-2 > *, .grid-3 > * {
+  min-width: 0; 
+}
