@@ -1,4 +1,4 @@
-﻿import PageHero from "@/components/sections/PageHero";
+import PageHero from "@/components/sections/PageHero";
 import SponsorForm from "@/components/forms/SponsorForm";
 
 export const metadata = {

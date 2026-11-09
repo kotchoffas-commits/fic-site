@@ -1,4 +1,4 @@
-﻿const ITEMS = [
+const ITEMS = [
   { day: "20 décembre", title: "Cérémonie d'ouverture officielle", desc: "Autorités, partenaires, exposants et premiers visiteurs — lancement de la première édition." },
   { day: "21 au 24 décembre", title: "Village Made in Collines & expositions", desc: "Produits du terroir, artisanat, agro-transformation, entreprises locales." },
   { day: "26 au 28 décembre", title: "Conférences & rencontres B2B", desc: "Panels sur l'entrepreneuriat, l'investissement local et la valorisation des filières." },

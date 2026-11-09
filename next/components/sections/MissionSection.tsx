@@ -1,4 +1,4 @@
-﻿const ITEMS = [
+const ITEMS = [
   { t: "Exposer", d: "Offrir une vitrine aux produits, savoir-faire et entreprises du territoire.", icon: "🏛" },
   { t: "Découvrir", d: "Faire connaître la richesse culturelle, artisanale et touristique des Collines.", icon: "🔍" },
   { t: "Échanger", d: "Créer des espaces de dialogue entre producteurs, investisseurs et institutions.", icon: "🤝" },

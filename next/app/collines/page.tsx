@@ -1,4 +1,4 @@
-﻿import PageHero from "@/components/sections/PageHero";
+import PageHero from "@/components/sections/PageHero";
 import Link from "next/link";
 import Image from "next/image";
 

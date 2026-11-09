@@ -1,4 +1,4 @@
-﻿import PageHero from "@/components/sections/PageHero";
+import PageHero from "@/components/sections/PageHero";
 import MissionSection from "@/components/sections/MissionSection";
 import ValeursSection from "@/components/sections/ValeursSection";
 import ObjectifsSection from "@/components/sections/ObjectifsSection";

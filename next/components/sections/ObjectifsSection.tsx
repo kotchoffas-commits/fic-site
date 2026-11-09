@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 const ITEMS = [
   { img: "/assets/objectifs/rendre-visible.png", t: "Rendre visible", d: "Faire connaître les produits, talents et entreprises du territoire à un large public." },

@@ -1,4 +1,4 @@
-﻿const ITEMS = [
+const ITEMS = [
   { t: "Valorisation", d: "Rendre visibles les richesses et savoir-faire du territoire.", icon: "💡" },
   { t: "Solidarité", d: "Faire réussir ensemble les acteurs locaux.", icon: "🤝" },
   { t: "Durabilité", d: "Inscrire les initiatives dans le temps long.", icon: "🌿" },

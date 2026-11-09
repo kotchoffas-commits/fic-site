@@ -1,4 +1,4 @@
-﻿import PageHero from "@/components/sections/PageHero";
+import PageHero from "@/components/sections/PageHero";
 import NewsCard from "@/components/sections/NewsCard";
 import Link from "next/link";
 import { ACTUALITES } from "@/lib/actualites-data";

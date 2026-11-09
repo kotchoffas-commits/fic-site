@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import NewsCard, { type NewsItem } from "./NewsCard";
 
 const ITEMS: NewsItem[] = [

@@ -1,4 +1,4 @@
-﻿import Hero from "@/components/sections/Hero";
+import Hero from "@/components/sections/Hero";
 import VideoSection from "@/components/sections/VideoSection";
 import NewsPreview from "@/components/sections/NewsPreview";
 import Countdown from "@/components/sections/Countdown";

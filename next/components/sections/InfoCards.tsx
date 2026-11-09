@@ -1,4 +1,4 @@
-﻿export default function InfoCards() {
+export default function InfoCards() {
   const cards = [
     { t: "Localisation", d: "Place Egbakokou, Dassa-Zoumè — Département des Collines, Bénin." },
     { t: "Dates", d: "Du 20 décembre 2026 au 2 janvier 2027, quatorze jours de foire." },

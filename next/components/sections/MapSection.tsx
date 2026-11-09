@@ -1,4 +1,4 @@
-﻿export default function MapSection() {
+export default function MapSection() {
   return (
     <section className="py-16 md:py-24 bg-white">
       <div className="max-w-[1200px] mx-auto px-6">

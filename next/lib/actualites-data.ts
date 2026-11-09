@@ -1,4 +1,4 @@
-﻿export type NewsItem =
+export type NewsItem =
   | { type: "single"; img: string; date: string; cat: string; title: string; text: string; link: string }
   | { type: "album"; album: string[]; date: string; cat: string; title: string; text: string; link: string }
   | { type: "video"; video: string; date: string; cat: string; title: string; text: string; link: string };

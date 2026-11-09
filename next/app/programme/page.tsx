@@ -1,4 +1,4 @@
-﻿import PageHero from "@/components/sections/PageHero";
+import PageHero from "@/components/sections/PageHero";
 import ProgrammeList from "@/components/sections/ProgrammeList";
 import Link from "next/link";
 
