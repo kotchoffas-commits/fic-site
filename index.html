@@ -102,9 +102,6 @@
   </div>
 </section>
 
-<!-- ============================================================
-     SECTION COMMUNIQUÉ OFFICIEL
-     ============================================================ -->
 <section class="communique-section">
   <div class="container">
     <div class="communique-box reveal">
@@ -226,9 +223,10 @@
         <img src="assets/partenaires/mairie-dassa.jpeg" alt="Mairie de Dassa">
         <span>Mairie de Dassa</span>
       </a>
+      <!-- CORRECTION ICI : Jeco Hôtel -->
       <a href="partenaires.html" class="partner-box">
-        <img src="assets/partenaires/jeco-hote.jpeg" alt="Jeco Hôte">
-        <span>Jeco Hôte</span>
+        <img src="assets/partenaires/jeco-hote.jpeg" alt="Jeco Hôtel">
+        <span>Jeco Hôtel</span>
       </a>
       <a href="partenaires.html" class="partner-box">
         <img src="assets/partenaires/dkc-group.jpeg" alt="DKC Group">
@@ -286,7 +284,6 @@
         
         <h3>Dassa-Zoumè : La Foire internationale des Collines mise sur le packaging pour valoriser les produits locaux</h3>
         
-        <!-- Conteneur du texte qui va s'ouvrir/fermer -->
         <div id="formation-text-container" class="text-collapsed">
           <p><strong>En prélude à sa première édition prévue du 20 décembre 2026 au 2 janvier 2027</strong>, la FIC organise une formation pratique destinée aux entrepreneurs, artisans et porteurs de projets sur l'emballage et le positionnement numérique des produits locaux.</p>
           
@@ -297,7 +294,6 @@
           <p>Présent à la cérémonie d'ouverture au nom du maire de Dassa-Zoumè, le chef d'arrondissement de Dassa 1, Comlan Lié HOUÉHA, a salué une initiative en phase avec les enjeux de développement économique local. Avec cette formation pratique, sanctionnée par une attestation de participation, les organisateurs entendent préparer les acteurs locaux à tirer pleinement profit de ce rendez-vous économique, culturel et touristique.</p>
         </div>
         
-        <!-- Le bouton pour déclencher l'action -->
         <button id="btn-voir-plus-formation" class="btn-voir-plus">Lire la suite</button>
       </div>
     </div>
@@ -389,24 +385,21 @@
 <script src="assets/icons.js"></script>
 <script src="assets/script.js"></script>
 
-<!-- SCRIPT POUR LE BOUTON "LIRE LA SUITE" -->
+<!-- Script pour le bouton Voir Plus de la formation -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const btn = document.getElementById('btn-voir-plus-formation');
     const container = document.getElementById('formation-text-container');
     
-    // On vérifie que les deux éléments existent sur la page
     if (btn && container) {
       btn.addEventListener('click', function(e) {
-        e.preventDefault(); // Empêche le rechargement de la page
+        e.preventDefault();
         
         if (container.classList.contains('text-collapsed')) {
-          // Si c'est fermé, on ouvre
           container.classList.remove('text-collapsed');
           container.classList.add('text-expanded');
           btn.textContent = 'Réduire l\'article';
         } else {
-          // Si c'est ouvert, on ferme
           container.classList.add('text-collapsed');
           container.classList.remove('text-expanded');
           btn.textContent = 'Lire la suite';
