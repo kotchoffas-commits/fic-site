@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import VisitorCounter from "@/components/ui/VisitorCounter";
 
 const NAV = [
   { href: "/la-fic", label: "La FIC" },
@@ -109,6 +110,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-3 pt-8 text-xs text-white/60">
           <span>© 2026 Foire Internationale des Collines. Tous droits réservés.</span>
+          <span>Visiteurs : <VisitorCounter /></span>
           <div className="flex gap-4">
             <Link href="#" className="hover:text-white transition">Mentions légales</Link>
             <Link href="#" className="hover:text-white transition">Confidentialité</Link>

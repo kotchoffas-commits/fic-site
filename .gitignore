@@ -13,3 +13,9 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+# Temp dev files
+fix.ps1
+ETAT_DES_LIEUX.txt
+
+# Visitor counter runtime data
+next/data/compteur.json
