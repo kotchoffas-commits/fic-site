@@ -1062,3 +1062,311 @@ h1, h2, h3, h4, p, a, span {
 .bg-green .news-card .news-card-text {
   color: var(--gray-700) !important;
 }
+/* ============================================================
+   PAGE LES COLLINES — Design éditorial premium
+   ============================================================ */
+
+/* Cartes des communes avec bordure dorée */
+.commune-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.commune-card {
+  background: var(--white);
+  border-left: 4px solid var(--gold);
+  padding: 32px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+.commune-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+.commune-card h3 { 
+  font-size: 1.2rem; 
+  margin-bottom: 8px; 
+  color: var(--green-dark); 
+}
+.commune-card p { 
+  font-size: 0.95rem; 
+  color: var(--gray-700); 
+  margin: 0;
+}
+
+/* Section Tourisme Éditoriale (Zig-Zag) */
+.tourisme-editorial {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-top: 48px;
+}
+.tourisme-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+/* On inverse une ligne sur deux */
+.tourisme-row:nth-child(even) .tourisme-img {
+  order: 2;
+}
+.tourisme-img img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.1);
+  transition: transform .4s var(--ease);
+}
+.tourisme-img:hover img {
+  transform: scale(1.02);
+}
+.tourisme-txt h3 {
+  font-size: 2rem;
+  color: var(--green-dark);
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+.tourisme-txt p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--gray-700);
+}
+
+@media (max-width: 900px) {
+  .commune-grid { grid-template-columns: 1fr; }
+  .tourisme-row { grid-template-columns: 1fr; gap: 24px; }
+  .tourisme-row:nth-child(even) .tourisme-img { order: 0; }
+  .tourisme-img img { height: 280px; }
+  .tourisme-txt h3 { font-size: 1.5rem; }
+}
+/* ============================================================
+   PAGE LA FIC — Design éditorial (Split & Zig-Zag)
+   ============================================================ */
+
+/* Layout Split (Mission) */
+.split-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 64px;
+  align-items: start;
+}
+.split-text {
+  position: sticky;
+  top: 120px; /* Reste fixe pendant le scroll */
+}
+.split-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* Layout Zig-Zag (Objectifs) */
+.objectif-editorial {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 48px;
+}
+.objectif-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+.objectif-row:nth-child(even) .objectif-img {
+  order: 2; /* Inverse l'image et le texte */
+}
+.objectif-img img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.08);
+  transition: transform .4s var(--ease);
+}
+.objectif-img:hover img {
+  transform: scale(1.02);
+}
+.objectif-txt h3 {
+  font-size: 1.8rem;
+  color: var(--green-dark);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+.objectif-txt p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--gray-700);
+}
+
+@media (max-width: 900px) {
+  .split-layout { grid-template-columns: 1fr; gap: 32px; }
+  .split-text { position: static; }
+  .split-cards { grid-template-columns: 1fr; }
+  .objectif-row { grid-template-columns: 1fr; gap: 24px; }
+  .objectif-row:nth-child(even) .objectif-img { order: 0; }
+  .objectif-img img { height: 250px; }
+  .objectif-txt h3 { font-size: 1.5rem; }
+}
+/* ============================================================
+   PAGE EXPOSANTS — Design premium (Cartes & Parcours)
+   ============================================================ */
+
+/* Grille des exposants */
+.expo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.expo-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  padding: 32px 28px;
+  transition: all .3s var(--ease);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Effet premium au survol */
+.expo-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 4px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .3s var(--ease);
+}
+
+.expo-card:hover {
+  border-color: var(--gray-300);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  transform: translateY(-4px);
+}
+
+.expo-card:hover::before {
+  transform: scaleX(1);
+}
+
+.expo-cover { 
+  width: 48px; 
+  height: 48px; 
+  color: var(--gold); 
+  margin-bottom: 16px; 
+  transition: transform .3s var(--ease);
+}
+.expo-card:hover .expo-cover {
+  transform: scale(1.1);
+}
+
+.expo-card small {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.expo-card h4 {
+  font-size: 1.2rem;
+  color: var(--ink);
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.expo-card p {
+  font-size: 0.95rem;
+  color: var(--gray-700);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Parcours "Devenir exposant" */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.step-card {
+  position: relative;
+  padding: 32px;
+  background: var(--white);
+  border-radius: 8px;
+  border: 1px solid var(--gray-200);
+}
+
+.step-number {
+  font-family: var(--font-display, 'Inter', sans-serif); /* Fallback */
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgba(var(--gold-rgb), 0.2);
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  line-height: 1;
+}
+
+.step-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: var(--green-dark);
+  position: relative;
+  z-index: 1;
+}
+
+.step-card p {
+  font-size: 0.95rem;
+  color: var(--gray-700);
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Grille Partenaires */
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.partner-box {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-500);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all .3s var(--ease);
+}
+
+.partner-box:hover {
+  border-color: var(--gray-300);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  color: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .expo-grid { grid-template-columns: 1fr 1fr; }
+  .steps-grid { grid-template-columns: 1fr; gap: 24px; }
+  .partners-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .expo-grid, .partners-grid { grid-template-columns: 1fr; }
+}
